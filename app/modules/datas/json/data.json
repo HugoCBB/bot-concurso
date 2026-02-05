@@ -1,0 +1,3327 @@
+[
+    {
+        "orgao": "Câmara dos Deputados",
+        "info": "40 vagas até R$ 21.328,08",
+        "cargo": "Policial Legislativo Federal",
+        "nivel": "Superior",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "EMGEPRON - Empresa Gerencial de Projetos Navais",
+        "info": "12 vagas até R$ 12.302,00",
+        "cargo": "Vários Cargos",
+        "nivel": "Médio / Técnico / Superior",
+        "data_limite": "23/02/2026"
+    },
+    {
+        "orgao": "Marinha do Brasil",
+        "info": "850 vagas até R$ 2294,50",
+        "cargo": "Escolas de Aprendizes-Marinheiros",
+        "nivel": "Ensino Médio",
+        "data_limite": "25/02/2026"
+    },
+    {
+        "orgao": "Marinha do Brasil",
+        "info": "Vagas até R$ 9.663,60",
+        "cargo": "Vários Cargos",
+        "nivel": "Superior",
+        "data_limite": "10/03 a 08/04/2026"
+    },
+    {
+        "orgao": "Aeronáutica (EA/EAGS)",
+        "info": "188 vagas",
+        "cargo": "Vários Cargos",
+        "nivel": "Ensino Técnico",
+        "data_limite": "21/01/2026"
+    },
+    {
+        "orgao": "Câmara dos Deputados",
+        "info": "70 vagas até R$ 30.853,99",
+        "cargo": "Analista Legislativo, Técnico Legislativo",
+        "nivel": "Superior",
+        "data_limite": "26/01/2026"
+    },
+    {
+        "orgao": "Com 8ºDN - Marinha do Brasil",
+        "info": "24 vagas",
+        "cargo": "Vários Cargos",
+        "nivel": "Fundamental / Médio",
+        "data_limite": "27/01/2026"
+    },
+    {
+        "orgao": "CRTR - 12 - Conselho Regional dos Técnicos em Radiologia da 12ª Região",
+        "info": "3 vagas até R$ 2.700,00",
+        "cargo": "Auxiliar Administrativo, Agente Fiscal",
+        "nivel": "Médio / Técnico",
+        "data_limite": "05/03/2026"
+    },
+    {
+        "orgao": "IBAMA - Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
+        "info": "8 vagas até R$ 5.676,00",
+        "cargo": "Supervisor Estadual de Manejo Integrado do Fogo",
+        "nivel": "Ensino Médio",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "IBAMA - Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
+        "info": "6 vagas até R$ 5.676,00",
+        "cargo": "Supervisor Estadual de Manejo Integrado do Fogo",
+        "nivel": "Ensino Médio",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "IBAMA - Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
+        "info": "2 vagas até R$ 5.676,00",
+        "cargo": "Supervisor Estadual de Manejo Integrado do Fogo",
+        "nivel": "Ensino Médio",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "IBAMA - Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
+        "info": "2 vagas até R$ 5.676,00",
+        "cargo": "Supervisor Estadual de Manejo Integrado do Fogo",
+        "nivel": "Ensino Médio",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "IRBr - Instituto Rio Branco",
+        "info": "60 vagas até R$ 22.558,56",
+        "cargo": "Terceiro Secretário",
+        "nivel": "Superior",
+        "data_limite": "25/02/2026"
+    },
+    {
+        "orgao": "Marinha - Marinha do Brasil",
+        "info": "13 vagas até R$ 9.663,60",
+        "cargo": "Vários Cargos",
+        "nivel": "Superior",
+        "data_limite": "10/03 a 08/04/2026"
+    },
+    {
+        "orgao": "Marinha do Brasil (C-FSG-MU-CFN)",
+        "info": "40 vagas até R$ 6975,59",
+        "cargo": "Curso de Formação de Sargentos Músicos do Corpo de Fuzileiros Navais",
+        "nivel": "Ensino Médio",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "CRAISA - Companhia Regional de Abastecimento Integrado de Santo André",
+        "info": "SP",
+        "cargo": "95 vagas até R$ 10.868,02",
+        "nivel": "Vários Cargos",
+        "data_limite": "12/03/2026"
+    },
+    {
+        "orgao": "MP - Ministério Público do Estado de São Paulo",
+        "info": "SP",
+        "cargo": "Vagas até R$ 3784,45",
+        "nivel": "Auxiliar de Promotoria I - Administrativa",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Barueri",
+        "info": "SP",
+        "cargo": "124 vagas até R$ 12.019,57",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Catanduva",
+        "info": "SP",
+        "cargo": "15 vagas até R$ 7.039,88",
+        "nivel": "Vários Cargos",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Francisco Morato",
+        "info": "SP",
+        "cargo": "21 vagas até R$ 6.551,00",
+        "nivel": "Auxiliar de Atendimento Educacional, Assistente Técnico Pedagógico",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Jarinu",
+        "info": "SP",
+        "cargo": "17 vagas até R$ 4.057,00",
+        "nivel": "Guarda Municipal",
+        "data_limite": "05/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Jundiaí",
+        "info": "SP",
+        "cargo": "3 vagas até R$ 9.568,92",
+        "nivel": "Assistente de Administração, Médico Ginecologista, Técnico em Laboratório",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Santa Isabel",
+        "info": "SP",
+        "cargo": "152 vagas até R$ 7.833,63",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de São Paulo",
+        "info": "SP",
+        "cargo": "500 vagas até R$ 4.127,52",
+        "nivel": "Guarda Civil Metropolitano",
+        "data_limite": "03/03/2026"
+    },
+    {
+        "orgao": "Câmara de Campo Limpo Paulista",
+        "info": "SP",
+        "cargo": "3 vagas até R$ 10.612,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "10/03/2026"
+    },
+    {
+        "orgao": "Câmara de Carapicuíba",
+        "info": "SP",
+        "cargo": "3 vagas até R$ 5.100,75",
+        "nivel": "Agente Administrativo, Ajudante de Serviços Gerais, Oficial de Manutenção",
+        "data_limite": "22/02/2026"
+    },
+    {
+        "orgao": "Câmara de Francisco Morato",
+        "info": "SP",
+        "cargo": "8 vagas até R$ 4789,98",
+        "nivel": "Vários Cargos",
+        "data_limite": "26/01/2026"
+    },
+    {
+        "orgao": "Câmara de São Miguel Arcanjo",
+        "info": "SP",
+        "cargo": "1 vaga até R$ 4.491,20",
+        "nivel": "Vários Cargos",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Câmara de Tarumã",
+        "info": "SP",
+        "cargo": "2 vagas até R$ 2.660,25",
+        "nivel": "Agente Administrativo, Agente Legislativo",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "CONDERG - Consórcio de Desenvolvimento da Região de Governo de São João da Boa Vista",
+        "info": "SP",
+        "cargo": "1 vaga até R$ 1.518,00",
+        "nivel": "Auxiliar de Manutenção",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "Consórcio Intermunicipal Três Rios",
+        "info": "SP",
+        "cargo": "17 vagas até R$ 1.822,70",
+        "nivel": "Auxiliar de Serviços Gerais, Operador de Roçadeira, Pintor",
+        "data_limite": "08/02/2026"
+    },
+    {
+        "orgao": "EBSERH - Empresa Brasileira de Serviços Hospitalares",
+        "info": "SP",
+        "cargo": "6 vagas até R$ 11.464,58",
+        "nivel": "Médico",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "EMURJA - Empresa Municipal de Urbanização de Jaboticabal",
+        "info": "SP",
+        "cargo": "Cadastro reserva até R$ 2.824,35",
+        "nivel": "Jardineiro, Mecânico",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "EPTS - Empresa de Pesquisa, Tecnologia e Serviços da Universidade de Taubaté",
+        "info": "SP",
+        "cargo": "1 vaga até R$ 6.341,00",
+        "nivel": "Médico Veterinário",
+        "data_limite": "10/02/2026"
+    },
+    {
+        "orgao": "FAMESP - Fundação para o Desenvolvimento Médico e Hospitalar",
+        "info": "SP",
+        "cargo": "1 vaga até R$ 4.697,17",
+        "nivel": "Médico Neonatologista",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "FAMESP - Fundação para o Desenvolvimento Médico e Hospitalar",
+        "info": "SP",
+        "cargo": "13 vagas até R$ 4.697,17",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "FAMESP - Fundação para o Desenvolvimento Médico e Hospitalar",
+        "info": "SP",
+        "cargo": "9 vagas até R$ 11.569,91",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "FAMESP - Fundação para o Desenvolvimento Médico e Hospitalar",
+        "info": "SP",
+        "cargo": "2 vagas até R$ 3.470,99",
+        "nivel": "Médico Saúde da Mulher, Técnico de Enfermagem",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "FAMESP - Fundação para o Desenvolvimento Médico e Hospitalar",
+        "info": "SP",
+        "cargo": "2 vagas até R$ 4.510,59",
+        "nivel": "Técnico em Segurança do Trabalho, Médico do Trabalho",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "FAMESP - Fundação para o Desenvolvimento Médico e Hospitalar",
+        "info": "SP",
+        "cargo": "5 vagas até R$ 3.000,00",
+        "nivel": "Especializando em Cirurgia de Cabeça e Pescoço, Programa de Treinamento em Cirurgia Geral",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "FAPESP - Fundação de Amparo à Pesquisa do Estado de São Paulo",
+        "info": "SP",
+        "cargo": "13 vagas até R$ 10.235,95",
+        "nivel": "Analista Administrativo, Analista de Sistemas",
+        "data_limite": "25/02/2026"
+    },
+    {
+        "orgao": "FEMIB - Fundação Educacional Municipal de Ibitinga",
+        "info": "SP",
+        "cargo": "2 vagas até R$ 3.426,28",
+        "nivel": "Analista de Compras, Escriturário",
+        "data_limite": "17/02/2026"
+    },
+    {
+        "orgao": "FPS - Fundação Pró-Sangue Hemocentro de São Paulo",
+        "info": "SP",
+        "cargo": "5 vagas até R$ 4.568,66",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/03/2026"
+    },
+    {
+        "orgao": "FUNAP - Fundação Prof. Dr. Manoel Pedro Pimentel",
+        "info": "SP",
+        "cargo": "10 vagas até R$ 3.065,94",
+        "nivel": "Técnico de Segurança do Trabalho, Advogado",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "FUNCAMP - Fundação de Desenvolvimento da Unicamp",
+        "info": "SP",
+        "cargo": "1 vaga até R$ 3.272,67",
+        "nivel": "Recepcionista Bilíngue",
+        "data_limite": "07/02/2026"
+    },
+    {
+        "orgao": "FUNCAMP - Fundação de Desenvolvimento da Unicamp",
+        "info": "SP",
+        "cargo": "2 vagas até R$ 2.100,00",
+        "nivel": "Garçom",
+        "data_limite": "10/02/2026"
+    },
+    {
+        "orgao": "FUNCAMP - Fundação de Desenvolvimento da Unicamp",
+        "info": "SP",
+        "cargo": "1 vaga até R$ 24.092,62",
+        "nivel": "Médico Cirurgião da Mão",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "FUNCAMP - Fundação de Desenvolvimento da Unicamp",
+        "info": "SP",
+        "cargo": "3 vagas até R$ 5.699,16",
+        "nivel": "Analista de Negócios e Inovação Júnior, Analista de Propriedade Intelectual Pleno, Assistente de Eventos",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "FUNCAMP - Fundação de Desenvolvimento da Unicamp",
+        "info": "SP",
+        "cargo": "1 vaga até R$ 1.980,00",
+        "nivel": "Auxiliar de Cozinha",
+        "data_limite": "23/02/2026"
+    },
+    {
+        "orgao": "HCFMRP-USP - Hospital das Clínicas da Faculdade de Medicina de Ribeirão Preto",
+        "info": "SP",
+        "cargo": "3 vagas até R$ 5.979,93",
+        "nivel": "Médico I",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "HCFMRP-USP - Hospital das Clínicas da Faculdade de Medicina de Ribeirão Preto",
+        "info": "SP",
+        "cargo": "2 vagas até R$ 5.979,93",
+        "nivel": "Médico I",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "IMA - Informática de Municípios Associados S.A.",
+        "info": "SP",
+        "cargo": "8 vagas até R$ 5.600,86",
+        "nivel": "Vários Cargos",
+        "data_limite": "01/03/2026"
+    },
+    {
+        "orgao": "MP - Ministério Público do estado de São Paulo",
+        "info": "SP",
+        "cargo": "55 vagas",
+        "nivel": "Membro do Ministério Público",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Anhembi",
+        "info": "SP",
+        "cargo": "46 vagas até R$ 5.259,28",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Araçatuba",
+        "info": "SP",
+        "cargo": "2 vagas até R$ 5.574,43",
+        "nivel": "Vários Cargos",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Barrinha",
+        "info": "SP",
+        "cargo": "Cadastro Reserva até R$ 5.320,92",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Batatais",
+        "info": "SP",
+        "cargo": "21 vagas até R$ 8.975,41",
+        "nivel": "Vários Cargos",
+        "data_limite": "26/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Bernardino de Campos",
+        "info": "SP",
+        "cargo": "26 vagas até R$ 5.971,74",
+        "nivel": "Vários Cargos",
+        "data_limite": "15/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Cardoso",
+        "info": "SP",
+        "cargo": "62 vagas até R$ 7602,95",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Clementina",
+        "info": "SP",
+        "cargo": "11 vagas até R$ 16.698,30",
+        "nivel": "Vários Cargos",
+        "data_limite": "11/02 a 11/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Conchas",
+        "info": "SP",
+        "cargo": "27 vagas até R$ 15.782,22",
+        "nivel": "Vários Cargos",
+        "data_limite": "12/02 a 09/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Franca",
+        "info": "SP",
+        "cargo": "15 vagas",
+        "nivel": "Vários Cargos",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Franca",
+        "info": "SP",
+        "cargo": "Cadastro Reserva até R$ 6.100,59",
+        "nivel": "Vários Cargos",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Guariba",
+        "info": "SP",
+        "cargo": "5 vagas até R$ 15.271,34",
+        "nivel": "Vários Cargos",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Guatapará",
+        "info": "SP",
+        "cargo": "Cadastro Reserva até R$ 4.224,25",
+        "nivel": "Vários Cargos",
+        "data_limite": "17/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Ibaté",
+        "info": "SP",
+        "cargo": "90 vagas até R$ 7.500,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "19/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Iguape",
+        "info": "SP",
+        "cargo": "25 vagas até R$ 8288,27",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Indiana",
+        "info": "SP",
+        "cargo": "17 vagas até R$ 17.805,15",
+        "nivel": "Vários Cargos",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Itaí",
+        "info": "SP",
+        "cargo": "5 vagas até R$ 6.122,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "23/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Itapecerica da Serra",
+        "info": "SP",
+        "cargo": "19 vagas até R$ 5.783,13",
+        "nivel": "Agente de Desenvolvimento Humano, Faxineiro, Orientador Pedagógico",
+        "data_limite": "23/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Jacareí",
+        "info": "SP",
+        "cargo": "62 vagas até R$ 8.230,14",
+        "nivel": "Vários Cargos",
+        "data_limite": "19/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Macatuba",
+        "info": "SP",
+        "cargo": "6 vagas até R$ 5.775,18",
+        "nivel": "Vários Cargos",
+        "data_limite": "17/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Magda",
+        "info": "SP",
+        "cargo": "1 vaga até R$ 3.899,90",
+        "nivel": "Psicólogo",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Mauá",
+        "info": "SP",
+        "cargo": "146 vagas até R$ 10.030,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "29/01/2026"
+    },
+    {
+        "orgao": "Prefeitura de Monções",
+        "info": "SP",
+        "cargo": "5 vagas até R$ 3.623,39",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Oscar Bressane",
+        "info": "SP",
+        "cargo": "Cadastro de Reserva até R$ 11.017,22",
+        "nivel": "Vários Cargos",
+        "data_limite": "08/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Pereira Barreto",
+        "info": "SP",
+        "cargo": "5 vagas até R$ 10.136,74",
+        "nivel": "Vários Cargos",
+        "data_limite": "22/01/2026"
+    },
+    {
+        "orgao": "Prefeitura de Pilar do Sul",
+        "info": "SP",
+        "cargo": "9 vagas até R$ 6.356,39",
+        "nivel": "Vários Cargos",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Pontal",
+        "info": "SP",
+        "cargo": "1 vaga até R$ 13.282,29",
+        "nivel": "Controlador Interno",
+        "data_limite": "23/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Santo Antônio de Posse",
+        "info": "SP",
+        "cargo": "37 vagas até R$ 6.997,92",
+        "nivel": "Vários Cargos",
+        "data_limite": "23/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de São Vicente",
+        "info": "SP",
+        "cargo": "28 vagas até R$ 8.746,73",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Sarapuí",
+        "info": "SP",
+        "cargo": "4 vagas até R$ 3.036,00",
+        "nivel": "Agente Comunitário de Saúde, Agente de Combate às Endemias (ACE)",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Vargem",
+        "info": "SP",
+        "cargo": "22 vagas até R$ 6.410,76",
+        "nivel": "Vários Cargos",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Viradouro",
+        "info": "SP",
+        "cargo": "Cadastro Reserva até R$ 2.709,75",
+        "nivel": "Inumador, Motorista, Operador de Máquinas",
+        "data_limite": "17/02/2026"
+    },
+    {
+        "orgao": "SAAE - Serviço Autônomo de Água e Esgotos de Indaiatuba",
+        "info": "SP",
+        "cargo": "110 vagas até R$ 9600,50",
+        "nivel": "Vários Cargos",
+        "data_limite": "10/02/2026"
+    },
+    {
+        "orgao": "UNESP - Universidade Estadual Paulista",
+        "info": "SP",
+        "cargo": "1 vaga até R$ 10.247,69",
+        "nivel": "Pedagogo",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "UNESP - Universidade Estadual Paulista",
+        "info": "SP",
+        "cargo": "1 vaga até R$ 6.291,18",
+        "nivel": "Assistente Administrativo II",
+        "data_limite": "18/02/2026"
+    },
+    {
+        "orgao": "UNESP - Universidade Estadual Paulista \"Júlio de Mesquita Filho\"",
+        "info": "SP",
+        "cargo": "1 vaga até R$ 12.456,12",
+        "nivel": "Analista de Informática",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "UNESP - Universidade Estadual Paulista Júlio de Mesquita Filho",
+        "info": "SP",
+        "cargo": "1 vaga até R$ 6.291,18",
+        "nivel": "Assistente de Suporte Acadêmico II",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "USP - Universidade de São Paulo",
+        "info": "SP",
+        "cargo": "8 vagas até R$ 11.334,47",
+        "nivel": "Vários Cargos",
+        "data_limite": "11/02 a 06/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Arraial do Cabo",
+        "info": "RJ",
+        "cargo": "73 vagas até R$ 9438,03",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "PRODERJ - Centro de Tecnologia de Informação e Comunicação do Estado do Rio de Janeiro",
+        "info": "RJ",
+        "cargo": "28 vagas até R$ 4549,35",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "CAU/RJ - Conselho de Arquitetura e Urbanismo do Rio de Janeiro",
+        "info": "RJ",
+        "cargo": "2 vagas + 305 CR até R$ 9.246,75",
+        "nivel": "Vários Cargos",
+        "data_limite": "01/03/2026"
+    },
+    {
+        "orgao": "CRFa-1ª Região - Conselho Regional de Fonoaudiologia da 1ª Região",
+        "info": "RJ",
+        "cargo": "2 vagas até R$ 4862,45",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "MB - Marinha do Brasil/CIAGA - Centro de Instrução Almirante Graça Aranha",
+        "info": "RJ",
+        "cargo": "80 vagas",
+        "nivel": "Segundo Oficial de Náutica da Marinha Mercante",
+        "data_limite": "29/01/2026"
+    },
+    {
+        "orgao": "Prefeitura de Cabo Frio",
+        "info": "RJ",
+        "cargo": "124 vagas até R$ 6248,54",
+        "nivel": "Vários Cargos",
+        "data_limite": "30/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Pinheiral",
+        "info": "RJ",
+        "cargo": "20 vagas até R$ 2.567,96",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Santo Antônio de Pádua",
+        "info": "RJ",
+        "cargo": "450 vagas até R$ 5.318,89",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02 a 06/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Tanguá - Prefeitura de Tanguá",
+        "info": "RJ",
+        "cargo": "39 vagas até R$ 5589,90",
+        "nivel": "Vários Cargos",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "UFRJ - Universidade Federal do Rio de Janeiro",
+        "info": "RJ",
+        "cargo": "243 vagas até R$ 8057,47",
+        "nivel": "Vários Cargos",
+        "data_limite": "25/01/2026"
+    },
+    {
+        "orgao": "Câmara de Curvelo",
+        "info": "MG",
+        "cargo": "24 vagas até R$ 8715,44",
+        "nivel": "Vários Cargos",
+        "data_limite": "19/02/2026"
+    },
+    {
+        "orgao": "Câmara de Muriaé",
+        "info": "MG",
+        "cargo": "11 vagas até R$ 5000,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "02/03/2026"
+    },
+    {
+        "orgao": "Câmara de São Geraldo",
+        "info": "MG",
+        "cargo": "3 vagas até R$ 2500,00",
+        "nivel": "Auxiliar Administrativo, Auxiliar de Serviços Gerais, Contador",
+        "data_limite": "19/02/2026"
+    },
+    {
+        "orgao": "PC - Polícia Civil de Minas Gerais",
+        "info": "MG",
+        "cargo": "104 vagas até R$ 1990,97",
+        "nivel": "Técnico-Assistente (Auxiliar de Perícia)",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Andradas",
+        "info": "MG",
+        "cargo": "44 vagas até R$ 5128,57",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Barão de Cocais",
+        "info": "MG",
+        "cargo": "48 vagas de R$ 2.683,68",
+        "nivel": "Guarda Civil Municipal",
+        "data_limite": "16/03 a 16/04/2026"
+    },
+    {
+        "orgao": "Prefeitura de Capetinga",
+        "info": "MG",
+        "cargo": "97 vagas até R$ 18.723,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Cataguases",
+        "info": "MG",
+        "cargo": "55 vagas até R$ 2.200,00",
+        "nivel": "Agente de Defesa Civil, Agente de Trânsito, Guarda Civil Municipal",
+        "data_limite": "13/02 a 11/04/2026"
+    },
+    {
+        "orgao": "Prefeitura de Lavras",
+        "info": "MG",
+        "cargo": "169 vagas até R$ 5.286,42",
+        "nivel": "Vários Cargos",
+        "data_limite": "16/03 a 16/04/2026"
+    },
+    {
+        "orgao": "SES - Secretaria de Estado de Saúde de Minas Gerais",
+        "info": "MG",
+        "cargo": "380 vagas até R$ 4.287,02",
+        "nivel": "Especialista em Políticas e Gestão da Saúde",
+        "data_limite": "04/03 a 02/04/2026"
+    },
+    {
+        "orgao": "UFLA - Universidade Federal de Lavras",
+        "info": "MG",
+        "cargo": "22 vagas até R$ 4967,04",
+        "nivel": "Vários Cargos",
+        "data_limite": "12/03/2026"
+    },
+    {
+        "orgao": "Câmara de Alfredo Vasconcelos",
+        "info": "MG",
+        "cargo": "1 vaga até R$ 1.990,00",
+        "nivel": "Assistente Administrativo",
+        "data_limite": "25/03 a 24/04/2026"
+    },
+    {
+        "orgao": "Câmara de Brasilândia de Minas",
+        "info": "MG",
+        "cargo": "10 vagas até R$ 4200,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Câmara de Itaobim",
+        "info": "MG",
+        "cargo": "5 vagas até R$ 4535,11",
+        "nivel": "Vários Cargos",
+        "data_limite": "16/03 a 16/04/2026"
+    },
+    {
+        "orgao": "Câmara de Lamim",
+        "info": "MG",
+        "cargo": "4 vagas até R$ 4.500,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "16/03 a 16/04/2026"
+    },
+    {
+        "orgao": "Câmara de Monte Carmelo",
+        "info": "MG",
+        "cargo": "8 vagas até R$ 4492,17",
+        "nivel": "Vários Cargos",
+        "data_limite": "27/02/2026"
+    },
+    {
+        "orgao": "Câmara de Piranguçu",
+        "info": "MG",
+        "cargo": "3 vagas + CR até R$ 2.043,00",
+        "nivel": "Auxiliar de Serviços Gerais, Técnico Legislativo, Contador",
+        "data_limite": "01/04 a 03/05/2026"
+    },
+    {
+        "orgao": "Câmara de Pouso Alto",
+        "info": "MG",
+        "cargo": "3 vagas até R$ 5204,67",
+        "nivel": "Vários Cargos",
+        "data_limite": "02/03 a 01/04/2026"
+    },
+    {
+        "orgao": "FAEPU - Fundação de Assistência, Estudo e Pesquisa de Uberlândia",
+        "info": "MG",
+        "cargo": "Cadastro Reserva até R$ 2.296,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "08/02/2026"
+    },
+    {
+        "orgao": "FAEPU - Fundação de Assistência, Estudo e Pesquisa de Uberlândia",
+        "info": "MG",
+        "cargo": "Cadastro de Reserva até R$ 2.605,80",
+        "nivel": "Técnico em Saúde Bucal, Porteiro",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "FAEPU - Fundação de Assistência, Estudo e Pesquisa de Uberlândia",
+        "info": "MG",
+        "cargo": "Cadastro Reserva até R$ 4.387,95",
+        "nivel": "Fisioterapeuta",
+        "data_limite": "17/02/2026"
+    },
+    {
+        "orgao": "FHEMIG - Fundação Hospitalar do Estado de Minas Gerais",
+        "info": "MG",
+        "cargo": "2 vagas até R$ 6.680,12",
+        "nivel": "Médico Anestesiologista",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "FHEMIG - Fundação Hospitalar do Estado de Minas Gerais",
+        "info": "MG",
+        "cargo": "1 vaga até R$ 6.680,12",
+        "nivel": "Médico Ortopedista e Traumatologista",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "FHEMIG - Fundação Hospitalar do Estado de Minas Gerais",
+        "info": "MG",
+        "cargo": "5 vagas até R$ 12.535,72",
+        "nivel": "Médico Cirurgião da Mão",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "FHEMIG - Fundação Hospitalar do Estado de Minas Gerais",
+        "info": "MG",
+        "cargo": "3 vagas até R$ 5.830,52",
+        "nivel": "Técnico Operacional de Saúde, Profissional de Enfermagem",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "FHEMIG - Fundação Hospitalar do Estado de Minas Gerais",
+        "info": "MG",
+        "cargo": "1 vaga até R$ 12.535,72",
+        "nivel": "Médico Endoscopista Digestivo",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "FHEMIG - Fundação Hospitalar do Estado de Minas Gerais",
+        "info": "MG",
+        "cargo": "4 vagas até R$ 6.680,12",
+        "nivel": "Médico Cirurgião Geral, Médico Infectologista, Médico Intensivista",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "FHEMIG - Fundação Hospitalar do Estado de Minas Gerais",
+        "info": "MG",
+        "cargo": "1 vaga até R$ 3.989,11",
+        "nivel": "Enfermeiro",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "FHEMIG - Fundação Hospitalar do Estado de Minas Gerais",
+        "info": "MG",
+        "cargo": "1 vaga até R$ 1.957,49",
+        "nivel": "Técnico Operacional de Saúde",
+        "data_limite": "10/02/2026"
+    },
+    {
+        "orgao": "FJP - Fundação João Pinheiro",
+        "info": "MG",
+        "cargo": "22 vagas até R$ 4.473,07",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/03 a 07/04/2026"
+    },
+    {
+        "orgao": "HOB - Hospital Metropolitano Odilon Behrens",
+        "info": "MG",
+        "cargo": "Vagas até R$ 7.023,15",
+        "nivel": "Cirurgião-Dentista, Técnico em Segurança do Trabalho",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Abaeté",
+        "info": "MG",
+        "cargo": "117 vagas até R$ 5276,74",
+        "nivel": "Vários Cargos",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Almenara",
+        "info": "MG",
+        "cargo": "244 vagas até R$ 13.842,36",
+        "nivel": "Vários Cargos",
+        "data_limite": "10/02 a 02/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Amparo do Serra",
+        "info": "MG",
+        "cargo": "9 vagas até R$ 3.242,00",
+        "nivel": "Agente Comunitário de Saúde, Agente de Combate às Endemias",
+        "data_limite": "30/03 a 28/04/2026"
+    },
+    {
+        "orgao": "Prefeitura de Araçuaí",
+        "info": "MG",
+        "cargo": "145 vagas até R$ 22.637,76",
+        "nivel": "Vários Cargos",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Bela Vista de Minas",
+        "info": "MG",
+        "cargo": "66 vagas até R$ 4.700,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/03 a 09/04/2026"
+    },
+    {
+        "orgao": "Prefeitura de Betim",
+        "info": "MG",
+        "cargo": "781 vagas até R$ 5953,88",
+        "nivel": "Vários Cargos",
+        "data_limite": "02/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Biquinhas (MG)",
+        "info": "MG",
+        "cargo": "64 vagas até R$ 6793,68",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Bocaiúva",
+        "info": "MG",
+        "cargo": "68 vagas até R$ 3.036,00",
+        "nivel": "Agente Comunitário de Saúde",
+        "data_limite": "09/04 a 08/05/2026"
+    },
+    {
+        "orgao": "Prefeitura de Brás Pires",
+        "info": "MG",
+        "cargo": "11 vagas até R$ 14.199,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "10/02 a 12/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Buritis",
+        "info": "MG",
+        "cargo": "262 vagas até R$ 5.688,27",
+        "nivel": "Vários Cargos",
+        "data_limite": "19/02 a 23/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Cabo Verde",
+        "info": "MG",
+        "cargo": "49 vagas até R$ 5.130,63",
+        "nivel": "Vários Cargos",
+        "data_limite": "23/03 a 22/04/2026"
+    },
+    {
+        "orgao": "Prefeitura de Capetinga",
+        "info": "MG",
+        "cargo": "4 vagas até R$ 3160,33",
+        "nivel": "Agente Comunitário de Saúde, Agente de Combate à Endemias",
+        "data_limite": "05/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Capinópolis",
+        "info": "MG",
+        "cargo": "15 vagas até R$ 3036,00",
+        "nivel": "Agente Comunitário de Saúde, Agente de Combate às Endemias (ACE)",
+        "data_limite": "27/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Carbonita",
+        "info": "MG",
+        "cargo": "47 vagas",
+        "nivel": "Vários Cargos",
+        "data_limite": "23/02 a 23/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Cláudio",
+        "info": "MG",
+        "cargo": "Vagas até R$ 3463,55",
+        "nivel": "Fisioterapeuta",
+        "data_limite": "30/12/2026"
+    },
+    {
+        "orgao": "Prefeitura de Cláudio",
+        "info": "MG",
+        "cargo": "1 vaga até R$ 2.261,57",
+        "nivel": "Técnico de Enfermagem",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Cláudio",
+        "info": "MG",
+        "cargo": "2 vagas até R$ 1.745,62",
+        "nivel": "Atendente de ESF",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Conselheiro Pena",
+        "info": "MG",
+        "cargo": "254 vagas até R$ 7.210,35",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/05 a 08/06/2026"
+    },
+    {
+        "orgao": "Prefeitura de Coronel Murta",
+        "info": "MG",
+        "cargo": "87 vagas até R$ 4.284,20",
+        "nivel": "Vários Cargos",
+        "data_limite": "16/03 a 16/04/2026"
+    },
+    {
+        "orgao": "Prefeitura de Curvelo",
+        "info": "MG",
+        "cargo": "1 vaga até R$ 5.555,08",
+        "nivel": "Enfermeiro",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Durandé",
+        "info": "MG",
+        "cargo": "22 vagas até R$ 3.036,00",
+        "nivel": "Agente Comunitário de Saúde, Agente de Combate às Endemias",
+        "data_limite": "30/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Formoso",
+        "info": "MG",
+        "cargo": "24 vagas até R$ 3036,00",
+        "nivel": "Agente Comunitário de Saúde, Agente de Combate às Endemias",
+        "data_limite": "05/03 a 06/04/2026"
+    },
+    {
+        "orgao": "Prefeitura de Francisco Sá",
+        "info": "MG",
+        "cargo": "6 vagas até R$ 2500,00",
+        "nivel": "Assistente Social, Educador/Cuidador, Psicólogo",
+        "data_limite": "23/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Francisco Sá",
+        "info": "MG",
+        "cargo": "69 vagas até R$ 3036,00",
+        "nivel": "Agente Comunitário de Saúde, Agente de Combate às Endemias",
+        "data_limite": "26/02 a 30/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Galiléia",
+        "info": "MG",
+        "cargo": "23 vagas até R$ 3036,00",
+        "nivel": "Agente Comunitário de Saúde, Agente de Combate a Endemias",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Goianá",
+        "info": "MG",
+        "cargo": "24 vagas até R$ 17.189,28",
+        "nivel": "Vários Cargos",
+        "data_limite": "02/03 a 02/04/2026"
+    },
+    {
+        "orgao": "Prefeitura de Ibertioga",
+        "info": "MG",
+        "cargo": "85 vagas até R$ 5405,87",
+        "nivel": "Vários Cargos",
+        "data_limite": "02/03 a 01/04/2026"
+    },
+    {
+        "orgao": "Prefeitura de Inimutaba",
+        "info": "MG",
+        "cargo": "141 vagas até R$ 14.676,66",
+        "nivel": "Vários Cargos",
+        "data_limite": "10/03 a 09/04/2026"
+    },
+    {
+        "orgao": "Prefeitura de Itapagipe",
+        "info": "MG",
+        "cargo": "162 vagas até R$ 3.412,92",
+        "nivel": "Vários Cargos",
+        "data_limite": "30/03 a 04/05/2026"
+    },
+    {
+        "orgao": "Prefeitura de Itapeva",
+        "info": "MG",
+        "cargo": "304 vagas até R$ 20.884,18",
+        "nivel": "Vários Cargos",
+        "data_limite": "10/02 a 16/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de João Monlevade",
+        "info": "MG",
+        "cargo": "1 vaga + CR até R$ 3.704,25",
+        "nivel": "Nutricionista",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de João Monlevade",
+        "info": "MG",
+        "cargo": "1 vaga até R$ 5.401,17",
+        "nivel": "Enfermeiro",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de João Monlevade",
+        "info": "MG",
+        "cargo": "2 vagas até R$ 7.923,12",
+        "nivel": "Cirurgião Dentista de Estratégia de Saúde da Família, Técnico de Higiene Dental",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de José Gonçalves de Minas",
+        "info": "MG",
+        "cargo": "12 vagas até R$ 3.242,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Juvenília",
+        "info": "MG",
+        "cargo": "79 vagas até R$ 18.606,40",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Lambari",
+        "info": "MG",
+        "cargo": "38 vagas até R$ 3.036,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "18/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Leandro Ferreira",
+        "info": "MG",
+        "cargo": "2 vagas até R$ 3.022,73",
+        "nivel": "Meio Oficial, Técnico em Enfermagem",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Leopoldina",
+        "info": "MG",
+        "cargo": "Cadastro de reserva até R$ 3.205,25",
+        "nivel": "Técnico de Nível Superior - Engenheiro",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Leopoldina",
+        "info": "MG",
+        "cargo": "2 vagas até R$ 2.541,61",
+        "nivel": "Agente de Serviços Operacionais Operador de Retroescavadeira, Agente de Serviços Operacionais Operador de Trator",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Matias Barbosa",
+        "info": "MG",
+        "cargo": "4 vagas até R$ 3036,00",
+        "nivel": "Agente Comunitário de Saúde, Agente de Combate a Endemias",
+        "data_limite": "25/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Monte Belo",
+        "info": "MG",
+        "cargo": "Cadastro reserva até R$ 3.506,10",
+        "nivel": "Enfermeiro",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Muriaé",
+        "info": "MG",
+        "cargo": "Cadastro Reserva até R$ 15.344,76",
+        "nivel": "Médico ESF",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Paineiras",
+        "info": "MG",
+        "cargo": "88 vagas até R$ 4380,85",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Papagaios",
+        "info": "MG",
+        "cargo": "27 vagas até R$ 19.891,39",
+        "nivel": "Vários Cargos",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Paracatu",
+        "info": "MG",
+        "cargo": "4 vagas até R$ 6.093,47",
+        "nivel": "Contador, Economista",
+        "data_limite": "09/04 a 11/05/2026"
+    },
+    {
+        "orgao": "Prefeitura de Patrocínio",
+        "info": "MG",
+        "cargo": "140 vagas até R$ 3.036,00",
+        "nivel": "Agente Comunitário de Saúde, Agente de Combate às Endemias",
+        "data_limite": "23/03 a 23/04/2026"
+    },
+    {
+        "orgao": "Prefeitura de Piranga",
+        "info": "MG",
+        "cargo": "Vagas até R$ 3036,00",
+        "nivel": "Agente Comunitário de Saúde",
+        "data_limite": "24/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Piumhi",
+        "info": "MG",
+        "cargo": "484 vagas até R$ 16.497,79",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Presidente Juscelino",
+        "info": "MG",
+        "cargo": "86 vagas até R$ 3946,38",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02 a 10/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Presidente Juscelino",
+        "info": "MG",
+        "cargo": "3 vagas até R$ 3036,00",
+        "nivel": "Agente Comunitário de Saúde ESF Esperança",
+        "data_limite": "16/02 a 18/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Santo Antônio do Amparo",
+        "info": "MG",
+        "cargo": "8 vagas até R$ 4164,55",
+        "nivel": "Vários Cargos",
+        "data_limite": "25/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de São Miguel do Anta",
+        "info": "MG",
+        "cargo": "89 vagas até R$ 10.477,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "25/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de São Pedro da União",
+        "info": "MG",
+        "cargo": "1 vaga até R$ 3.242,00",
+        "nivel": "Agente Comunitário de Saúde",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de São Tomás de Aquino",
+        "info": "MG",
+        "cargo": "Vagas até R$ 4.333,14",
+        "nivel": "Vários Cargos",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Serro",
+        "info": "MG",
+        "cargo": "152 vagas até R$ 16.806,13",
+        "nivel": "Vários Cargos",
+        "data_limite": "02/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Setubinha",
+        "info": "MG",
+        "cargo": "34 vagas até R$ 3036,00",
+        "nivel": "Agente Comunitário de Saúde, Agente de Combate a Endemias",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Toledo",
+        "info": "MG",
+        "cargo": "15 vagas até R$ 3036,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Urucânia",
+        "info": "MG",
+        "cargo": "Vagas até R$ 4.205,65",
+        "nivel": "Vários Cargos",
+        "data_limite": "10/02/2026"
+    },
+    {
+        "orgao": "SAAE - Serviço Autônomo de Água e Esgoto de Luz",
+        "info": "MG",
+        "cargo": "1 vaga até R$ 2.107,39",
+        "nivel": "Auxiliar de Operador de ETE/ETA",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "SAS - Serviço de Água e Saneamento",
+        "info": "MG",
+        "cargo": "8 vagas até R$ 2.749,94",
+        "nivel": "Vários Cargos",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "TJ - Tribunal de Justiça do Estado de Minas Gerais",
+        "info": "MG",
+        "cargo": "103 vagas até R$ 35.877,20",
+        "nivel": "Juiz de Direito Substituto",
+        "data_limite": "23/03 a 22/04/2026"
+    },
+    {
+        "orgao": "UEMG - Universidade do Estado de Minas Gerais",
+        "info": "MG",
+        "cargo": "1 vaga até R$ 2.639,24",
+        "nivel": "Analista Universitário",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "UFMG - Universidade Federal de Minas Gerais",
+        "info": "MG",
+        "cargo": "30 vagas até R$ 4967,04",
+        "nivel": "Técnico-Administrativo",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "UFU - Universidade Federal de Uberlândia",
+        "info": "MG",
+        "cargo": "1 vaga até R$ 4.976,27",
+        "nivel": "Médico Veterinário/Animais de Laboratório",
+        "data_limite": "13/02 a 09/03/2026"
+    },
+    {
+        "orgao": "UFV - Universidade Federal de Viçosa",
+        "info": "MG",
+        "cargo": "2 vagas até R$ 3.029,90",
+        "nivel": "Assistente em Administração",
+        "data_limite": "26/02/2026"
+    },
+    {
+        "orgao": "CBM - Corpo de Bombeiros Militar do Estado do Espírito Santo",
+        "info": "ES",
+        "cargo": "406 vagas até R$ 10.221,74",
+        "nivel": "Oficial Combatente Bombeiro Militar",
+        "data_limite": "05/03/2026"
+    },
+    {
+        "orgao": "MGS - Minas Gerais Administração e Serviços S.A.",
+        "info": "ES",
+        "cargo": "Vagas até R$ 5.792,56",
+        "nivel": "Vários Cargos",
+        "data_limite": "23/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Águia Branca",
+        "info": "ES",
+        "cargo": "9 vagas até R$ 4.821,82",
+        "nivel": "Vários Cargos",
+        "data_limite": "22/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Aracruz",
+        "info": "ES",
+        "cargo": "101 vagas até R$ 3.075,83",
+        "nivel": "Vários Cargos",
+        "data_limite": "19/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Pedro Canário",
+        "info": "ES",
+        "cargo": "Vagas até R$ 15.924,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Pinheiros",
+        "info": "ES",
+        "cargo": "18 vagas até R$ 2.824,00",
+        "nivel": "Agente Comunitário de Saúde, Agente de Combate à Endemias",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Viana",
+        "info": "ES",
+        "cargo": "Cadastro Reserva até R$ 1.776,50",
+        "nivel": "Vários Cargos",
+        "data_limite": "18/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Vitória",
+        "info": "ES",
+        "cargo": "4 vagas até R$ 7.200,32",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Vitória",
+        "info": "ES",
+        "cargo": "4 vagas até R$ 4.109,52",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura e Câmara de Venda Nova do Imigrante",
+        "info": "ES",
+        "cargo": "176 vagas até R$ 7.653,12",
+        "nivel": "Vários Cargos",
+        "data_limite": "19/02/2026"
+    },
+    {
+        "orgao": "PRODNORTE - Consórcio Público Prodnorte",
+        "info": "ES",
+        "cargo": "Cadastro de reserva até R$ 3.131,52",
+        "nivel": "Vários Cargos",
+        "data_limite": "10/02/2026"
+    },
+    {
+        "orgao": "SECTI - Secretaria da Ciência, Tecnologia, Inovação e Educação Profissional",
+        "info": "ES",
+        "cargo": "Vagas até R$ 6.792,32",
+        "nivel": "Pedagogo",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "SEDU - Secretaria de Estado da Educação",
+        "info": "ES",
+        "cargo": "Cadastro reserva até R$ 2.300,00",
+        "nivel": "Agente de Integração Escolar (AIE)",
+        "data_limite": "10/02/2026"
+    },
+    {
+        "orgao": "SEAP e SESA",
+        "info": "PR",
+        "cargo": "641 vagas até R$ 7616,88",
+        "nivel": "Promotor de Saúde Profissional, Promotor de Saúde Execução",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "Câmara Paranacity",
+        "info": "PR",
+        "cargo": "3 vagas até R$ 5.102,12",
+        "nivel": "Vários Cargos",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "CRBM-6 - Conselho Regional de Biomedicina da 6ª Região",
+        "info": "PR",
+        "cargo": "3 vagas + CR até R$ 5.000,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/03/2026"
+    },
+    {
+        "orgao": "FEAS - Fundação Estatal de Atenção à Saúde",
+        "info": "PR",
+        "cargo": "153 vagas até R$ 11.323,51",
+        "nivel": "Vários Cargos",
+        "data_limite": "20/01/2026"
+    },
+    {
+        "orgao": "Prefeitura de Andirá",
+        "info": "PR",
+        "cargo": "2 vagas até R$ 3.149,18",
+        "nivel": "Fisioterapeuta",
+        "data_limite": "19/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Assis Chateaubriand",
+        "info": "PR",
+        "cargo": "Vagas até R$ 16.611,31",
+        "nivel": "Vários Cargos",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Bandeirantes",
+        "info": "PR",
+        "cargo": "34 vagas até R$ 4.240,67",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Barbosa Ferraz",
+        "info": "PR",
+        "cargo": "22 vagas até R$ 18.448,72",
+        "nivel": "Vários Cargos",
+        "data_limite": "18/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Braganey",
+        "info": "PR",
+        "cargo": "5 vagas até R$ 3.242,00",
+        "nivel": "Agente Comunitário de Saúde",
+        "data_limite": "18/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Campina da Lagoa",
+        "info": "PR",
+        "cargo": "44 vagas até R$ 2.000,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Cerro Azul",
+        "info": "PR",
+        "cargo": "3 vagas até R$ 6.600,00",
+        "nivel": "Arquiteto, Engenheiro Civil, Técnico Industrial em Edificações",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Diamante do Norte",
+        "info": "PR",
+        "cargo": "15 vagas até R$ 14.653,35",
+        "nivel": "Vários Cargos",
+        "data_limite": "19/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Doutor Ulysses",
+        "info": "PR",
+        "cargo": "1 vaga até R$ 3.325,00",
+        "nivel": "Técnico de Enfermagem",
+        "data_limite": "07/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Farol",
+        "info": "PR",
+        "cargo": "4 vagas + CR até R$ 15.230,15",
+        "nivel": "Vários Cargos",
+        "data_limite": "03/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Francisco Beltrão",
+        "info": "PR",
+        "cargo": "Cadastro reserva até R$ 6.403,73",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Ibiporã",
+        "info": "PR",
+        "cargo": "8 vagas até R$ 20.042,44",
+        "nivel": "Vários Cargos",
+        "data_limite": "24/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Irati",
+        "info": "PR",
+        "cargo": "15 vagas até R$ 1.730,80",
+        "nivel": "Faxineira",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Itambé",
+        "info": "PR",
+        "cargo": "Cadastro reserva até R$ 3.036,00",
+        "nivel": "Agente Comunitário de Saúde",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Itapejara D'Oeste",
+        "info": "PR",
+        "cargo": "17 vagas até R$ 6.261,39",
+        "nivel": "Vários Cargos",
+        "data_limite": "08/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Lidianópolis",
+        "info": "PR",
+        "cargo": "23 vagas até R$ 10.044,90",
+        "nivel": "Vários Cargos",
+        "data_limite": "19/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Matinhos",
+        "info": "PR",
+        "cargo": "11 vagas até R$ 19.567,05",
+        "nivel": "Médico Cardiologista, Médico Ginecologista e Obstetra Plantonista, Médico Pediatra",
+        "data_limite": "10/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Paranavaí",
+        "info": "PR",
+        "cargo": "57 vagas até R$ 8.322,20",
+        "nivel": "Vários Cargos",
+        "data_limite": "17/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Porecatu",
+        "info": "PR",
+        "cargo": "95 vagas até R$ 10.856,68",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Santa Terezinha de Itaipu",
+        "info": "PR",
+        "cargo": "80 vagas até R$ 2.753,01",
+        "nivel": "Auxiliar de Serviços Gerais, Professor",
+        "data_limite": "18/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Siqueira Campos",
+        "info": "PR",
+        "cargo": "3 vagas até R$ 3.649,10",
+        "nivel": "Auxiliar de Serviços Gerais, Trabalhador Braçal Distrital, Eletricista de Máquina Rodoviária e Veículos",
+        "data_limite": "10/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Telêmaco Borba",
+        "info": "PR",
+        "cargo": "83 vagas até R$ 5614,51",
+        "nivel": "Vários Cargos",
+        "data_limite": "26/01/2026"
+    },
+    {
+        "orgao": "Prefeitura de Terra Roxa",
+        "info": "PR",
+        "cargo": "54 vagas até R$ 23.367,01",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02 a 10/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Vitorino",
+        "info": "PR",
+        "cargo": "64 vagas até R$ 20.945,34",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02 a 11/03/2026"
+    },
+    {
+        "orgao": "SAAE - Serviço Autônomo de Água e Esgoto de Nova Fátima",
+        "info": "PR",
+        "cargo": "3 vagas até R$ 3.649,55",
+        "nivel": "Auxiliar Administrativo, Advogado, Engenheiro Químico",
+        "data_limite": "18/02/2026"
+    },
+    {
+        "orgao": "SEAP - Secretaria de Estado da Administração e da Previdência do Paraná / SESA - Secretaria de Estado da Saúde",
+        "info": "PR",
+        "cargo": "641 vagas até R$ 7.616,88",
+        "nivel": "Vários Cargos",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "CRESS - Conselho Regional de Serviço Social da 10ª Região",
+        "info": "RS",
+        "cargo": "4 vagas até R$ 6983,62",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Gramado",
+        "info": "RS",
+        "cargo": "178 vagas até R$ 6054,81",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Câmara de Esteio",
+        "info": "RS",
+        "cargo": "Vagas até R$ 8683,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "COMUR - Companhia Municipal de Urbanismo",
+        "info": "RS",
+        "cargo": "20 vagas + CR até R$ 3.476,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "18/02/2026"
+    },
+    {
+        "orgao": "CREFITO-5 - Conselho Regional de Fisioterapia e Terapia Ocupacional da 5ª Região",
+        "info": "RS",
+        "cargo": "12 vagas até R$ 6.397,38",
+        "nivel": "Vários Cargos",
+        "data_limite": "02/03/2026"
+    },
+    {
+        "orgao": "GHC - Grupo Hospitalar Conceição S.A",
+        "info": "RS",
+        "cargo": "Cadastro Reserva até R$ 30.399,60",
+        "nivel": "Vários Cargos",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "HBCS - Hospital Beneficente Dr. César Santos",
+        "info": "RS",
+        "cargo": "Vagas até R$ 5.789,10",
+        "nivel": "Médico, Fisioterapeuta, Fonoaudiólogo",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Arroio do Padre",
+        "info": "RS",
+        "cargo": "1 vaga até R$ 8.766,71",
+        "nivel": "Dentista ESF",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Barra Funda",
+        "info": "RS",
+        "cargo": "1 vaga + CR até R$ 8.305,08",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Barros Cassal",
+        "info": "RS",
+        "cargo": "3 vagas até R$ 1.551,14",
+        "nivel": "Agente Visitador do Programa Primeira infância Melhor (PIM)",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Boa Vista do Sul",
+        "info": "RS",
+        "cargo": "Cadastro reserva até R$ 1.959,68",
+        "nivel": "Atendente",
+        "data_limite": "18/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Braga",
+        "info": "RS",
+        "cargo": "2 vagas até R$ 10.278,47",
+        "nivel": "Agente de Combate às Endemias, Médico",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Cotiporã",
+        "info": "RS",
+        "cargo": "1 vaga até R$ 3.923,44",
+        "nivel": "Fiscal Tributário",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Cotiporã",
+        "info": "RS",
+        "cargo": "1 vaga + CR até R$ 3.242,00",
+        "nivel": "Assistente Administrativo, Motorista, Agente Comunitário de Saúde",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Dom Feliciano",
+        "info": "RS",
+        "cargo": "Vagas até R$ 2.568,72",
+        "nivel": "Fiscal de Obras",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Erebango",
+        "info": "RS",
+        "cargo": "3 vagas + CR até R$ 5.473,11",
+        "nivel": "Agente de Combate às Endemias, Enfermeiro ESF, Professor",
+        "data_limite": "02/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Espumoso",
+        "info": "RS",
+        "cargo": "13 vagas até R$ 2.858,28",
+        "nivel": "Motorista, Operador de Máquinas, Auxiliar de Obras e Serviços",
+        "data_limite": "10/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Fagundes Varela",
+        "info": "RS",
+        "cargo": "1 vaga até R$ 2.864,06",
+        "nivel": "Motorista",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Flores da Cunha",
+        "info": "RS",
+        "cargo": "Cadastro reserva até R$ 2.391,06",
+        "nivel": "Agente de Serviços Complementares Operário Especializado",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Ibiraiaras e Hospital São José de Ibiraiaras",
+        "info": "RS",
+        "cargo": "22 vagas até R$ 14.060,74",
+        "nivel": "Vários Cargos",
+        "data_limite": "03/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Imbé",
+        "info": "RS",
+        "cargo": "Cadastro reserva até R$ 3.655,64",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Ivorá",
+        "info": "RS",
+        "cargo": "1 vaga até R$ 8.046,90",
+        "nivel": "Farmacêutico",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Maquiné",
+        "info": "RS",
+        "cargo": "Cadastro reserva até R$ 1.523,74",
+        "nivel": "Monitor Escolar, Auxiliar de Manutenção e Conservação Pública",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Maquiné",
+        "info": "RS",
+        "cargo": "Cadastro Reserva até R$ 1.597,39",
+        "nivel": "Técnico em Enfermagem/Vacinador",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Novo Cabrais",
+        "info": "RS",
+        "cargo": "Até R$ 3.500,40",
+        "nivel": "Professor de Educação Física, Fisioterapeuta, Técnico em Informática",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Novo Hamburgo",
+        "info": "RS",
+        "cargo": "Vagas até R$ 2.755,10",
+        "nivel": "Assistente Administrativo",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Paraí",
+        "info": "RS",
+        "cargo": "26 vagas até R$ 2.679,47",
+        "nivel": "Auxiliar Educacional, Cozinheira, Professor",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Porto Mauá",
+        "info": "RS",
+        "cargo": "1 vaga até R$ 4.548,72",
+        "nivel": "Pedagogo",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Presidente Lucena",
+        "info": "RS",
+        "cargo": "2 vagas até R$ 2.752,04",
+        "nivel": "Auxiliar de Serviços Gerais, Monitor, Auxiliar de Educação Básica",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Santiago",
+        "info": "RS",
+        "cargo": "1 vaga até R$ 5.117,47",
+        "nivel": "Geólogo",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Santo Antônio da Patrulha",
+        "info": "RS",
+        "cargo": "Cadastro de reserva até R$ 3.774,89",
+        "nivel": "Auxiliar de Museu, Arquivista",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Santo Antônio da Patrulha",
+        "info": "RS",
+        "cargo": "Cadastro Reserva até R$ 2.367,20",
+        "nivel": "Cuidador Social, Instrutor Educacional em Língua Brasileira de Sinais, Instrutor Educacional de Braille",
+        "data_limite": "19/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de São José do Herval",
+        "info": "RS",
+        "cargo": "25 vagas até R$ 13.346,45",
+        "nivel": "Vários Cargos",
+        "data_limite": "17/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de São Pedro do Butiá",
+        "info": "RS",
+        "cargo": "1 vaga até R$ 7.752,84",
+        "nivel": "Auxiliar Administrativo, Monitor de Escola, Procurador Jurídico",
+        "data_limite": "10/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Tavares",
+        "info": "RS",
+        "cargo": "Cadastro de reserva até R$ 4.164,40",
+        "nivel": "Merendeira, Fisioterapeuta",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Tavares",
+        "info": "RS",
+        "cargo": "1 vaga até R$ 2.053,90",
+        "nivel": "Auxiliar de Saúde Bucal",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Três Passos",
+        "info": "RS",
+        "cargo": "22 vagas até R$ 8.328,27",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Trindade do Sul",
+        "info": "RS",
+        "cargo": "9 vagas até R$ 6.000,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "10/02/2026"
+    },
+    {
+        "orgao": "TJ - Tribunal de Justiça do Estado do Rio Grande do Sul",
+        "info": "RS",
+        "cargo": "247 vagas",
+        "nivel": "Outorga de Delegações de Notas e de Registro",
+        "data_limite": "16/03 a 14/04/2026"
+    },
+    {
+        "orgao": "Tribunal de Justiça",
+        "info": "RS",
+        "cargo": "1.042 vagas até R$ 9226,01",
+        "nivel": "Juiz Leigo, Conciliador Cível, Conciliador Criminal",
+        "data_limite": "30/01/2026"
+    },
+    {
+        "orgao": "UFRGS - Universidade Federal do Rio Grande do Sul",
+        "info": "RS",
+        "cargo": "3 vagas até R$ 8.692,32",
+        "nivel": "Administrador, Meteorologista",
+        "data_limite": "04/03/2026"
+    },
+    {
+        "orgao": "CIDASC - Companhia Integrada de Desenvolvimento Agrícola de Santa Catarina",
+        "info": "SC",
+        "cargo": "28 vagas até R$ 12.506,76",
+        "nivel": "Vários Cargos",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Florianópolis",
+        "info": "SC",
+        "cargo": "46 vagas até R$ 21.131,64",
+        "nivel": "Vários Cargos",
+        "data_limite": "19/02/2026"
+    },
+    {
+        "orgao": "Câmara de Ipumirim",
+        "info": "SC",
+        "cargo": "2 vagas até R$ 4.050,00",
+        "nivel": "Agente Operacional, Contador",
+        "data_limite": "18/02/2026"
+    },
+    {
+        "orgao": "Câmara de Mondaí",
+        "info": "SC",
+        "cargo": "2 vagas até R$ 2.125,00",
+        "nivel": "Controlador Interno, Assistente Administrativo",
+        "data_limite": "26/02/2026"
+    },
+    {
+        "orgao": "Câmara de Vereadores de Santa Terezinha",
+        "info": "SC",
+        "cargo": "1 vaga de R$ 1.518,00",
+        "nivel": "Faxineira",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "CBM - Corpo de Bombeiros Militar do Estado de Santa Catarina",
+        "info": "SC",
+        "cargo": "630 vagas até R$ 8015,00",
+        "nivel": "Aluno-Soldado Temporário",
+        "data_limite": "29/01/2026"
+    },
+    {
+        "orgao": "CBMSC - Corpo de Bombeiros Militar do Estado de Santa Catarina",
+        "info": "SC",
+        "cargo": "110 vagas até R$ 21.284,40",
+        "nivel": "Aluno-Soldado Bombeiro Militar, Cadete Bombeiro Militar",
+        "data_limite": "25/02/2026"
+    },
+    {
+        "orgao": "CIM AMUREL - Consórcio Intermunicipal Multifinalitário dos Municípios da AMUREL",
+        "info": "SC",
+        "cargo": "3 vagas até R$ 4.900,00",
+        "nivel": "Oficial Administrativo, Contador, Médico Veterinário",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "CRMV - Conselho Regional de Medicina Veterinária do Estado de Santa Catarina",
+        "info": "SC",
+        "cargo": "5 vagas",
+        "nivel": "Assistente Administrativo, Advogado, Engenheiro Civil",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "FAHECE - Fundação de Apoio ao HEMOSC/CEPON",
+        "info": "SC",
+        "cargo": "1 vaga até R$ 4.546,46",
+        "nivel": "Analista Contábil I",
+        "data_limite": "08/02/2026"
+    },
+    {
+        "orgao": "FAHECE - Fundação de Apoio ao HEMOSC/CEPON",
+        "info": "SC",
+        "cargo": "1 vaga + CR até R$ 7.200,00",
+        "nivel": "Coordenador(a), Médico(a) Regulador(a) das Urgências",
+        "data_limite": "08/02/2026"
+    },
+    {
+        "orgao": "FAHECE - Fundação de Apoio ao HEMOSC/CEPON",
+        "info": "SC",
+        "cargo": "1 vaga até R$ 1.205,48",
+        "nivel": "Assistente de Comunicação I PCD",
+        "data_limite": "15/02/2026"
+    },
+    {
+        "orgao": "FAHECE - Fundação de Apoio ao HEMOSC/CEPON",
+        "info": "SC",
+        "cargo": "Cadastro Reserva até R$ 133,24 por hora",
+        "nivel": "Médico Intervencionista",
+        "data_limite": "08/02/2026"
+    },
+    {
+        "orgao": "FMS - Fundo Municipal de Saúde de Criciúma",
+        "info": "SC",
+        "cargo": "22 vagas até R$ 16.652,88",
+        "nivel": "Vários Cargos",
+        "data_limite": "24/02/2026"
+    },
+    {
+        "orgao": "FURB - Fundação Universidade Regional de Blumenau",
+        "info": "SC",
+        "cargo": "Cadastro reserva até R$ 3.895,60",
+        "nivel": "Vários Cargos",
+        "data_limite": "26/02/2026"
+    },
+    {
+        "orgao": "IPRECAL - Campo Alegre",
+        "info": "SC",
+        "cargo": "1 vaga até R$ 1.436,73",
+        "nivel": "Contador",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "PM - Polícia Militar de Santa Catarina",
+        "info": "SC",
+        "cargo": "1.465 vagas até R$ 8505,00",
+        "nivel": "Soldado Temporário",
+        "data_limite": "26/01/2026"
+    },
+    {
+        "orgao": "PMF - Prefeitura de Florianópolis",
+        "info": "SC",
+        "cargo": "41 vagas até R$ 5.900,40",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/03/2026"
+    },
+    {
+        "orgao": "PMF - Prefeitura de Florianópolis",
+        "info": "SC",
+        "cargo": "13 vagas até R$ 4.216,81",
+        "nivel": "Coveiro, Motorista, Operador de Máquinas",
+        "data_limite": "27/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Apiúna",
+        "info": "SC",
+        "cargo": "Cadastro reserva até R$ 3.872,43",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Atalanta",
+        "info": "SC",
+        "cargo": "6 vagas até R$ 5.579,72",
+        "nivel": "Vários Cargos",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Bombinhas",
+        "info": "SC",
+        "cargo": "Vagas até R$ 22.022,27",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Bombinhas",
+        "info": "SC",
+        "cargo": "Cadastro de reserva até R$ 12.647,61",
+        "nivel": "Vários Cargos",
+        "data_limite": "16/02 a 17/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Caçador",
+        "info": "SC",
+        "cargo": "Cadastro de reserva até R$ 26.857,06",
+        "nivel": "Vários Cargos",
+        "data_limite": "22/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Campo Alegre",
+        "info": "SC",
+        "cargo": "Cadastro de Reserva até R$ 5.014,22",
+        "nivel": "Especialista em Assuntos Educacionais, Professor",
+        "data_limite": "16/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Caxambu do Sul",
+        "info": "SC",
+        "cargo": "14 vagas até R$ 18.643,91",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Caxambu do Sul",
+        "info": "SC",
+        "cargo": "8 vagas até R$ 5.961,68",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Chapecó",
+        "info": "SC",
+        "cargo": "1 vaga até R$ 6.084,11",
+        "nivel": "Vários Cargos",
+        "data_limite": "08/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Chapecó",
+        "info": "SC",
+        "cargo": "9 vagas até R$ 5.978,41",
+        "nivel": "Motorista, Assistente Social",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Estância Velha",
+        "info": "SC",
+        "cargo": "2 vagas até R$ 3.402,06",
+        "nivel": "Técnico em Contabilidade",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Florianópolis",
+        "info": "SC",
+        "cargo": "500 vagas até R$ 2944,36",
+        "nivel": "Agente Comunitário de Saúde, Agente de Combate às Endemias",
+        "data_limite": "19/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Fraiburgo",
+        "info": "SC",
+        "cargo": "Vagas até R$ 1.848,24",
+        "nivel": "Monitor Social",
+        "data_limite": "28/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Fraiburgo",
+        "info": "SC",
+        "cargo": "Vagas até R$ 4.620,66",
+        "nivel": "Assistente Social, Fonoaudiólogo",
+        "data_limite": "28/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Imbituba",
+        "info": "SC",
+        "cargo": "Cadastro reserva até R$ 1.449,42",
+        "nivel": "Recreador",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Ipuaçu",
+        "info": "SC",
+        "cargo": "52 vagas até R$ 9543,08",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Ipumirim",
+        "info": "SC",
+        "cargo": "35 vagas até R$ 11.448,28",
+        "nivel": "Vários Cargos",
+        "data_limite": "18/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Irani",
+        "info": "SC",
+        "cargo": "20 vagas até R$ 10.415,09",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Irati",
+        "info": "SC",
+        "cargo": "9 vagas até R$ 4.793,03",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Lacerdópolis",
+        "info": "SC",
+        "cargo": "23 vagas + CR até R$ 9.070,43",
+        "nivel": "Vários Cargos",
+        "data_limite": "16/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Lages",
+        "info": "SC",
+        "cargo": "85 vagas até R$ 3.034,54",
+        "nivel": "Vários Cargos",
+        "data_limite": "02/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Macieira",
+        "info": "SC",
+        "cargo": "1 vaga até R$ 4.512,13",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Mondaí",
+        "info": "SC",
+        "cargo": "7 vagas + CR até R$ 7.709,30",
+        "nivel": "Vários Cargos",
+        "data_limite": "26/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Otacílio Costa",
+        "info": "SC",
+        "cargo": "Cadastro Reserva até R$ 4.905,52",
+        "nivel": "Professor, BNCC da Computação, Educação Financeira",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Paraíso",
+        "info": "SC",
+        "cargo": "Cadastro de Reserva até R$ 4.867,77",
+        "nivel": "Professor, Oficineiro",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Pedra Grandes",
+        "info": "SC",
+        "cargo": "107 vagas até R$ 15.150,93",
+        "nivel": "Vários Cargos",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Penha",
+        "info": "SC",
+        "cargo": "2 vagas até R$ 6.980,13",
+        "nivel": "Vários Cargos",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Peritiba",
+        "info": "SC",
+        "cargo": "CR até R$ 3.056,96",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Pescaria Brava",
+        "info": "SC",
+        "cargo": "Cadastro reserva até R$ 5.765,49",
+        "nivel": "Profissional de Apoio Escolar - PAE, Operador de Máquinas e Equipamentos - Nível II, Assistente Social",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Riqueza",
+        "info": "SC",
+        "cargo": "13 vagas até R$ 8.077,77",
+        "nivel": "Vários Cargos",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Romelândia",
+        "info": "SC",
+        "cargo": "54 vagas até R$ 30.380,40",
+        "nivel": "Vários Cargos",
+        "data_limite": "03/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Salto Veloso",
+        "info": "SC",
+        "cargo": "Cadastro de reserva até R$ 5.396,10",
+        "nivel": "Vários Cargos",
+        "data_limite": "27/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Santiago do Sul",
+        "info": "SC",
+        "cargo": "Cadastro de reserva até R$ 2.113,05",
+        "nivel": "Auxiliar de Serviços Gerais",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de São Francisco do Sul",
+        "info": "SC",
+        "cargo": "6 vagas até R$ 3036,00",
+        "nivel": "Agente de Combate às Endemias",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de São José do Cedro",
+        "info": "SC",
+        "cargo": "2 vagas até R$ 10.687,94",
+        "nivel": "Procurador Municipal, Auxiliar Educacional, Técnico de Enfermagem ESF",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de São José do Cedro",
+        "info": "SC",
+        "cargo": "3 vagas até R$ 3.242,00",
+        "nivel": "Agente Comunitário, Agente da Dengue, Auxiliar de Dentista",
+        "data_limite": "05/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Tijucas",
+        "info": "SC",
+        "cargo": "Cadastro reserva até R$ 21.773,73",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Tijucas",
+        "info": "SC",
+        "cargo": "1 vaga mais cadastro de reserva até R$ 3.077,36",
+        "nivel": "Auxiliar de Serviços Gerais, Motorista III",
+        "data_limite": "17/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Treze de Maio",
+        "info": "SC",
+        "cargo": "34 vagas até R$ 4.869,10",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Urubici (SED)",
+        "info": "SC",
+        "cargo": "46 vagas até R$ 5175,14",
+        "nivel": "Vários Cargos",
+        "data_limite": "18/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Videira",
+        "info": "SC",
+        "cargo": "Cadastro de reserva até R$ 15.516,99",
+        "nivel": "Vários Cargos",
+        "data_limite": "15/02/2026"
+    },
+    {
+        "orgao": "Prefeitura e Câmara de Cordilheira Alta",
+        "info": "SC",
+        "cargo": "25 vagas até R$ 24.559,93",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "SAMAE - Serviço Autônomo Municipal de Água e Esgoto de Nova Trento",
+        "info": "SC",
+        "cargo": "2 vagas até R$ 2.670,99",
+        "nivel": "Auxiliar de Operações, Encanador, Operador de ETA e ETE",
+        "data_limite": "10/02/2026"
+    },
+    {
+        "orgao": "SES - Secretaria de Estado da Saúde",
+        "info": "SC",
+        "cargo": "15 vagas até R$ 10.581,16",
+        "nivel": "Médico",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "UDESC - Fundação Universidade do Estado de Santa Catarina",
+        "info": "SC",
+        "cargo": "40 vagas até R$ 6.858,78",
+        "nivel": "Vários Cargos",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "UFSC - Universidade Federal de Santa Catarina",
+        "info": "SC",
+        "cargo": "63 vagas até R$ 6.142,04",
+        "nivel": "Vários Cargos",
+        "data_limite": "12/02 a 10/03/2026"
+    },
+    {
+        "orgao": "CRF - Conselho Regional de Farmácia do Distrito Federal",
+        "info": "DF",
+        "cargo": "2 vagas até R$ 6.642,46",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "VALEC - Engenharia, Construções e Ferrovias S/A",
+        "info": "DF",
+        "cargo": "65 vagas até R$ 10.800,82",
+        "nivel": "Analista",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "AgSUS - Agência Brasileira de Apoio à Gestão do SUS",
+        "info": "DF",
+        "cargo": "Cadastro reserva até R$ 8.800,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "17/02/2026"
+    },
+    {
+        "orgao": "PCDF - Polícia Civil do Distrito Federal",
+        "info": "DF",
+        "cargo": "150 vagas até R$ 26.690,15",
+        "nivel": "Delegado de Polícia",
+        "data_limite": "27/04/2026"
+    },
+    {
+        "orgao": "Polícia Militar do Distrito Federal",
+        "info": "DF",
+        "cargo": "49 vagas até R$ 17.034,85",
+        "nivel": "Curso de Formação de Oficiais",
+        "data_limite": "06/03/2026"
+    },
+    {
+        "orgao": "SEBRAE - Serviço Brasileiro de Apoio às Micro e Pequenas Empresas",
+        "info": "DF",
+        "cargo": "2 vagas até R$ 15.967,04",
+        "nivel": "Analista Técnico I, Analista Técnico II",
+        "data_limite": "23/01/2026"
+    },
+    {
+        "orgao": "Câmara de Goiânia",
+        "info": "GO",
+        "cargo": "62 vagas até R$ 10.059,32",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Ministério Público do Estado de Goiás",
+        "info": "GO",
+        "cargo": "Vagas até R$ 4542,73",
+        "nivel": "Oficial de Promotoria",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Catalão",
+        "info": "GO",
+        "cargo": "591 vagas até R$ 22.147,42",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Valparaíso de Goiás",
+        "info": "GO",
+        "cargo": "30 vagas até R$ 1622,06",
+        "nivel": "Guarda Municipal",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Valparaíso de Goiás",
+        "info": "GO",
+        "cargo": "767 vagas até R$ 6084,71",
+        "nivel": "Vários Cargos",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "SEFAZ - Secretaria da Fazenda do Estado",
+        "info": "GO",
+        "cargo": "50 vagas até R$ 28.563,30",
+        "nivel": "Auditor-Fiscal Da Receita Estadual",
+        "data_limite": "09/02 a 12/03/2026"
+    },
+    {
+        "orgao": "AGEVAP - Associação Pró-Gestão das Águas da Bacia Hidrográfica do Rio Paraíba do Sul e SEMAD/GO",
+        "info": "GO",
+        "cargo": "11 vagas até R$ 10.908,00",
+        "nivel": "Especialista Administrativo, Especialista Ambiental, Responsável Técnico",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "Câmara de Senador Canedo",
+        "info": "GO",
+        "cargo": "25 vagas até R$ 10.874,58",
+        "nivel": "Vários Cargos",
+        "data_limite": "16/02 a 17/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Bela Vista de Goiás",
+        "info": "GO",
+        "cargo": "281 vagas até R$ 7775,01",
+        "nivel": "Vários Cargos",
+        "data_limite": "19/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Cachoeira Alta",
+        "info": "GO",
+        "cargo": "42 vagas até R$ 3.940,42",
+        "nivel": "Professor Regente, Monitor, Agente de Serviços de Higiene e Alimentação",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Cachoeira de Goiás",
+        "info": "GO",
+        "cargo": "41 vagas até R$ 19.361,50",
+        "nivel": "Vários Cargos",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Catalão",
+        "info": "GO",
+        "cargo": "40 vagas até R$ 11.735,38",
+        "nivel": "Vários Cargos",
+        "data_limite": "26/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Chapadão do Céu",
+        "info": "GO",
+        "cargo": "13 vagas até R$ 3.156,99",
+        "nivel": "Agente Comunitário de Saúde, Agente de Combate à Endemias ACE",
+        "data_limite": "22/02 a 22/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Rio Verde",
+        "info": "GO",
+        "cargo": "198 vagas até R$ 3.036,00",
+        "nivel": "Agente Comunitário de Saúde, Agente de Combate às Endemias",
+        "data_limite": "13/02 a 16/03/2026"
+    },
+    {
+        "orgao": "ALE - Assembleia Legislativa de Mato Grosso do Sul",
+        "info": "MS",
+        "cargo": "80 vagas até R$ 8030,65",
+        "nivel": "Vários Cargos",
+        "data_limite": "02/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Caarapó",
+        "info": "MS",
+        "cargo": "Cadastro reserva",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Camapuã",
+        "info": "MS",
+        "cargo": "3 vagas + CR até R$ 3.242,00",
+        "nivel": "Agente Comunitário de Saúde, Agente de Combate às Endemias",
+        "data_limite": "08/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Caracol",
+        "info": "MS",
+        "cargo": "2 vagas até R$ 4.954,26",
+        "nivel": "Auxiliar em Saúde Bucal, Nutricionista",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Eldorado",
+        "info": "MS",
+        "cargo": "6 vagas até R$ 1.925,97",
+        "nivel": "Motorista, Auxiliar de Serviços Gerais Ambulatorial",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Glória de Dourados",
+        "info": "MS",
+        "cargo": "Vagas até R$ 2.113,00",
+        "nivel": "Profissional de Apoio Escolar",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Guia Lopes da Laguna",
+        "info": "MS",
+        "cargo": "1 vaga até R$ 5.332,35",
+        "nivel": "Contador",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Iguatemi",
+        "info": "MS",
+        "cargo": "27 vagas até R$ 2.879,07",
+        "nivel": "Vários Cargos",
+        "data_limite": "10/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Nova Andradina",
+        "info": "MS",
+        "cargo": "42 vagas até R$ 1.750,64",
+        "nivel": "Auxiliar de Serviços Gerais",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Barão de Melgaço",
+        "info": "MT",
+        "cargo": "36 vagas",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Campo Novo do Parecis",
+        "info": "MT",
+        "cargo": "Cadastro de reserva até R$ 6.268,16",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Carlinda",
+        "info": "MT",
+        "cargo": "135 vagas até R$ 15.318,70",
+        "nivel": "Vários Cargos",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Cotriguaçu",
+        "info": "MT",
+        "cargo": "Cadastro de reserva até R$ 5.031,84",
+        "nivel": "Vários Cargos",
+        "data_limite": "08/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Ipiranga do Norte",
+        "info": "MT",
+        "cargo": "1 vaga + CR até R$ 3.043,81",
+        "nivel": "Agente de Combate a Endemias, Agente Comunitário de Saúde",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Jaciara",
+        "info": "MT",
+        "cargo": "Cadastro Reserva até R$ 5.347,17",
+        "nivel": "Professor Pedagogia, Professor Português/Inglês, Técnico Administrativo Educacional",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Nova Guarita",
+        "info": "MT",
+        "cargo": "Cadastro de reserva até R$ 3.932,25",
+        "nivel": "Professor, Psicólogo Escolar, Assistente Social Gestão Estratégica",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Novo Santo Antônio",
+        "info": "MT",
+        "cargo": "2 vagas até R$ 5.040,33",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Novo São Joaquim",
+        "info": "MT",
+        "cargo": "52 vagas até R$ 4.512,34",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Paranaíta",
+        "info": "MT",
+        "cargo": "Cadastro Reserva até R$ 3.165,33",
+        "nivel": "Agente Comunitário de Saúde, Agente de Combate às Endemias",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Serra Nova Dourada",
+        "info": "MT",
+        "cargo": "17 vagas até R$ 5.356,85",
+        "nivel": "Vários Cargos",
+        "data_limite": "18/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Várzea Grande",
+        "info": "MT",
+        "cargo": "483 vagas até R$ 2.843,84",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Vera",
+        "info": "MT",
+        "cargo": "34 vagas até R$ 6.000,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "TJ - Tribunal de Justiça",
+        "info": "MT",
+        "cargo": "Vagas",
+        "nivel": "Delegações de notas, Delegações de Registro",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "UFR - Universidade Federal de Rondonópolis",
+        "info": "MT",
+        "cargo": "6 vagas até R$ 4.967,04",
+        "nivel": "Vários Cargos",
+        "data_limite": "20/02/2026"
+    },
+    {
+        "orgao": "IPAAM - Instituto de Proteção Ambiental do Amazonas",
+        "info": "AM",
+        "cargo": "140 vagas até R$ 11.692,22",
+        "nivel": "Vários Cargos",
+        "data_limite": "30/01/2026"
+    },
+    {
+        "orgao": "SEMASC - Secretaria Municipal de Assistência Social e Cidadania",
+        "info": "AM",
+        "cargo": "143 vagas até R$ 3.900,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "COREN - Conselho Regional de Enfermagem do Estado do Acre",
+        "info": "AC",
+        "cargo": "4 vagas até R$ 4750,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "SEMEC - Secretaria Municipal de Educação e Cultura de Assis Brasil",
+        "info": "AC",
+        "cargo": "Cadastro de reserva até R$ 3.149,15",
+        "nivel": "Professor Regente, Agente de Educação, Oficineiro de Tempo Integral",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Mazagão",
+        "info": "AP",
+        "cargo": "333 vagas até R$ 4.502,18",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/03/2026"
+    },
+    {
+        "orgao": "CRM - Conselho Regional de Medicina do Estado do Pará",
+        "info": "PA",
+        "cargo": "5 vagas até R$ 9000,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Anajás",
+        "info": "PA",
+        "cargo": "278 vagas até R$ 1412,00",
+        "nivel": "Auxiliar de Sala de Aula",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Mãe do Rio",
+        "info": "PA",
+        "cargo": "10 vagas até R$ 1800,00",
+        "nivel": "Guarda Civil Municipal",
+        "data_limite": "09/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de São Félix do Xingu",
+        "info": "PA",
+        "cargo": "58 vagas até R$ 3.242,00",
+        "nivel": "Agente Comunitário de Saúde",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "SEFA - Secretaria de Estado da Fazenda do Estado do Pará",
+        "info": "PA",
+        "cargo": "286 vagas até R$ 16.659,63",
+        "nivel": "Vários Cargos",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "SEMED - Secretaria Municipal de Educação de Soure",
+        "info": "PA",
+        "cargo": "161 vagas até R$ 2.565,75",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "UEPA - Universidade do Estado do Pará",
+        "info": "PA",
+        "cargo": "29 vagas até R$ 3.155,05",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "SEDUC-RO - Secretaria de Estado da Educação de Rondônia",
+        "info": "RO",
+        "cargo": "2906 vagas até R$ 5.118,41",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Alto Alegre dos Parecis",
+        "info": "RO",
+        "cargo": "28 vagas até R$ 4867,77",
+        "nivel": "Vários Cargos",
+        "data_limite": "24/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de São Francisco do Guaporé",
+        "info": "RO",
+        "cargo": "70 vagas até R$ 7.999,20",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Theobroma",
+        "info": "RO",
+        "cargo": "8 vagas até R$ 4.867,77",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Vale do Paraíso",
+        "info": "RO",
+        "cargo": "Vagas",
+        "nivel": "Jovem Aprendiz - Assistente Administrativo",
+        "data_limite": "19/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Vilhena",
+        "info": "RO",
+        "cargo": "15 vagas até R$ 3.000,00",
+        "nivel": "Agente Municipal de Trânsito",
+        "data_limite": "24/02/2026"
+    },
+    {
+        "orgao": "IBAMA - Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
+        "info": "RR",
+        "cargo": "Vagas até R$ 5.676,00",
+        "nivel": "Supervisor Estadual de Manejo Integrado do Fogo",
+        "data_limite": "13/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Couto Magalhães",
+        "info": "TO",
+        "cargo": "197 vagas até R$ 15.102,49",
+        "nivel": "Vários Cargos",
+        "data_limite": "19/02/2026"
+    },
+    {
+        "orgao": "UNILAB - Universidade da Integração Internacional da Lusofonia Afro-Brasileira",
+        "info": "49 vagas até R$ 4.967,04",
+        "cargo": "Vários Cargos",
+        "nivel": "Médio / Técnico / Superior",
+        "data_limite": "05/03/2026"
+    },
+    {
+        "orgao": "MPAL - Ministério Público do Estado Alagoas",
+        "info": "AL",
+        "cargo": "27 vagas até R$ 6.243,37",
+        "nivel": "Analista do Ministério Público, Técnico do Ministério Público",
+        "data_limite": "19/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Pão de Açúcar",
+        "info": "AL",
+        "cargo": "123 vagas até R$ 3.042,36",
+        "nivel": "Vários Cargos",
+        "data_limite": "25/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Teotônio Vilela",
+        "info": "AL",
+        "cargo": "6 vagas até R$ 2.300,00",
+        "nivel": "Guarda Civil Municipal",
+        "data_limite": "01/03/2026"
+    },
+    {
+        "orgao": "ADAB - Agência Estadual de Defesa Agropecuária da Bahia",
+        "info": "BA",
+        "cargo": "200 vagas até R$ 7.445,86",
+        "nivel": "Fiscal Estadual Agropecuário, Técnico em Fiscalização Agropecuária",
+        "data_limite": "25/02/2026"
+    },
+    {
+        "orgao": "DPE - Defensoria Pública do Estado da Bahia",
+        "info": "BA",
+        "cargo": "68 vagas até R$ 3.659,52",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02 a 02/03/2026"
+    },
+    {
+        "orgao": "ICMBio - Instituto Chico Mendes de Conservação da Biodiversidade",
+        "info": "BA",
+        "cargo": "3 vagas até R$ 2.118,00 (1,5 salário-mínimo)",
+        "nivel": "Brigadista, Chefe de esquadrão",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "ICMBio - Instituto Chico Mendes de Conservação da Biodiversidade",
+        "info": "BA",
+        "cargo": "7 vagas até R$ 1,5 salário mínimo",
+        "nivel": "Brigadista, Chefe de Esquadrão",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "IF Baiano - Instituto Federal de Educação, Ciência e Tecnologia Baiano",
+        "info": "BA",
+        "cargo": "1 vaga até R$ 4.761,98",
+        "nivel": "Profissional Técnico Especializado em Linguagem de Sinais",
+        "data_limite": "20/07/2026"
+    },
+    {
+        "orgao": "Prefeitura de Alagoinhas",
+        "info": "BA",
+        "cargo": "288 vagas até R$ 2.434,09",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Andorinha",
+        "info": "BA",
+        "cargo": "213 vagas até R$ 6.500,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Anguera",
+        "info": "BA",
+        "cargo": "288 vagas até R$ 12.386,50",
+        "nivel": "Vários Cargos",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Barra do Choça",
+        "info": "BA",
+        "cargo": "12 vagas até R$ 2.158,20",
+        "nivel": "Guarda Municipal",
+        "data_limite": "26/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Barra do Choça",
+        "info": "BA",
+        "cargo": "113 vagas até R$ 4.318,18",
+        "nivel": "Vários Cargos",
+        "data_limite": "26/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Gentio do Ouro",
+        "info": "BA",
+        "cargo": "37 vagas até R$ 3.242,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "08/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Iraquara",
+        "info": "BA",
+        "cargo": "363 vagas até R$ 3.000,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "22/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de São Sebastião do Passé",
+        "info": "BA",
+        "cargo": "347 vagas até R$ 4.867,77",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Saubara",
+        "info": "BA",
+        "cargo": "62 vagas até R$ 4.780,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "26/02/2026"
+    },
+    {
+        "orgao": "SEC - Secretaria da Educação do Estado da Bahia",
+        "info": "BA",
+        "cargo": "2.777 vagas até R$ 7.530,75",
+        "nivel": "Vários Cargos",
+        "data_limite": "23/02/2026"
+    },
+    {
+        "orgao": "SESOC - Secretaria Municipal de Desenvolvimento Social e Cidadania de Brumado",
+        "info": "BA",
+        "cargo": "1 vaga até R$ 2.500,00",
+        "nivel": "Psicólogo",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "TJ - Tribunal de Justiça do Estado da Bahia",
+        "info": "BA",
+        "cargo": "Vagas",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/03 a 05/04/2026"
+    },
+    {
+        "orgao": "TJ-BA - Tribunal de Justiça do Estado da Bahia",
+        "info": "BA",
+        "cargo": "100 vagas até R$ 31.975,77",
+        "nivel": "Juiz Substituto",
+        "data_limite": "02/03 a 02/04/2026"
+    },
+    {
+        "orgao": "TJBA - Tribunal de Justiça do Estado da Bahia",
+        "info": "BA",
+        "cargo": "831 vagas até R$ 11.135,67",
+        "nivel": "Juiz Leigo",
+        "data_limite": "23/02 a 26/03/2026"
+    },
+    {
+        "orgao": "UEFS - Universidade Estadual de Feira de Santana",
+        "info": "BA",
+        "cargo": "91 vagas até R$ 1577,09",
+        "nivel": "Vários Cargos",
+        "data_limite": "25/01/2026"
+    },
+    {
+        "orgao": "Prefeitura de Maracanaú",
+        "info": "CE",
+        "cargo": "98 vagas até R$ 5.661,59",
+        "nivel": "Professor da Educação Básica",
+        "data_limite": "16/02/2026"
+    },
+    {
+        "orgao": "Câmara de Aracati",
+        "info": "CE",
+        "cargo": "17 vagas até R$ 3.742,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "22/04 a 09/06/2026"
+    },
+    {
+        "orgao": "Câmara de Crateús",
+        "info": "CE",
+        "cargo": "6 vagas até R$ 1.621,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "08/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Baturité",
+        "info": "CE",
+        "cargo": "102 vagas até R$ 9.108,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/03 a 02/04/2026"
+    },
+    {
+        "orgao": "Prefeitura de Chaval",
+        "info": "CE",
+        "cargo": "14 vagas até R$ 6.000,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Irauçuba",
+        "info": "CE",
+        "cargo": "2 vagas até R$ 4.000,00",
+        "nivel": "Fiscal Ambiental, Analista Ambiental",
+        "data_limite": "12/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Jati",
+        "info": "CE",
+        "cargo": "70 vagas até R$ 8.134,19",
+        "nivel": "Vários Cargos",
+        "data_limite": "27/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Paracuru",
+        "info": "CE",
+        "cargo": "133 vagas até R$ 5.376,56",
+        "nivel": "Vários Cargos",
+        "data_limite": "16/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Pereiro",
+        "info": "CE",
+        "cargo": "196 vagas até R$ 10.000,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "19/02/2026"
+    },
+    {
+        "orgao": "CRO/MA - Conselho Regional de Odontologia do Maranhão",
+        "info": "MA",
+        "cargo": "2 vagas até R$ 4.000,00",
+        "nivel": "Advogado, Agente Administrativo",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Alcântara",
+        "info": "MA",
+        "cargo": "173 vagas até R$ 3238,63",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/02/2026"
+    },
+    {
+        "orgao": "DPE - Defensoria Pública do Estado do Maranhão",
+        "info": "MA",
+        "cargo": "10 vagas até R$ 37.765,60",
+        "nivel": "Defensor Público de Classe Inicial",
+        "data_limite": "26/02/2026"
+    },
+    {
+        "orgao": "SAAE - Serviço Autônomo de Água e Esgoto de Cururupu",
+        "info": "MA",
+        "cargo": "37 vagas até R$ 6072,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "SEAP - Secretaria de Estado de Administração Penitenciária",
+        "info": "MA",
+        "cargo": "Cadastro reserva até R$ 1.760,72",
+        "nivel": "Técnico Penitenciário Administrativo",
+        "data_limite": "16/02/2026"
+    },
+    {
+        "orgao": "SEAP - Secretaria de Estado de Administração Penitenciária",
+        "info": "MA",
+        "cargo": "Cadastro reserva até R$ 3.521,43",
+        "nivel": "Especialista Penitenciário em Psicologia",
+        "data_limite": "16/02/2026"
+    },
+    {
+        "orgao": "SEAP - Secretaria de Estado de Administração Penitenciária",
+        "info": "MA",
+        "cargo": "Cadastro Reserva até R$ 1.760,72",
+        "nivel": "Técnico Penitenciário em Enfermagem, Auxiliar Penitenciário Feminino, Auxiliar Penitenciário Masculino",
+        "data_limite": "16/02/2026"
+    },
+    {
+        "orgao": "SEAP - Secretaria de Estado de Administração Penitenciária",
+        "info": "MA",
+        "cargo": "Cadastro Reserva até R$ 3.521,43",
+        "nivel": "Especialista Penitenciário em Psicologia, Técnico Penitenciário Administrativo",
+        "data_limite": "16/02/2026"
+    },
+    {
+        "orgao": "SEAP - Secretaria de Estado de Administração Penitenciária",
+        "info": "MA",
+        "cargo": "Cadastro reserva até R$ 3.521,43",
+        "nivel": "Vários Cargos",
+        "data_limite": "16/02/2026"
+    },
+    {
+        "orgao": "SEAP - Secretaria de Estado de Administração Penitenciária",
+        "info": "MA",
+        "cargo": "Cadastro reserva até R$ 1.760,72",
+        "nivel": "Técnico Penitenciário em Enfermagem, Auxiliar Penitenciário Feminino",
+        "data_limite": "16/02/2026"
+    },
+    {
+        "orgao": "SEAP - Secretaria de Estado de Administração Penitenciária do Maranhão",
+        "info": "MA",
+        "cargo": "Cadastro Reserva até R$ 1.760,72",
+        "nivel": "Auxiliar Penitenciário Masculino, Técnico Penitenciário Administrativo",
+        "data_limite": "16/02/2026"
+    },
+    {
+        "orgao": "SEAP - Secretaria de Estado de Administração Penitenciária do Maranhão",
+        "info": "MA",
+        "cargo": "Cadastro reserva até R$ 1.760,72",
+        "nivel": "Técnico Penitenciário em Enfermagem",
+        "data_limite": "11/02/2026"
+    },
+    {
+        "orgao": "SEAP - Secretaria de Estado de Administração Penitenciária do Maranhão",
+        "info": "MA",
+        "cargo": "Cadastro Reserva até R$ 3.521,43",
+        "nivel": "Vários Cargos",
+        "data_limite": "23/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Cajazeiras",
+        "info": "PB",
+        "cargo": "75 vagas até R$ 4423,30",
+        "nivel": "Vários Cargos",
+        "data_limite": "08/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Cuité",
+        "info": "PB",
+        "cargo": "142 vagas até R$ 6000,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "15/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Itapororoca",
+        "info": "PB",
+        "cargo": "30 vagas até R$ 1.621,00",
+        "nivel": "Auxiliar de Serviços Educacionais",
+        "data_limite": "07/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Nova Floresta",
+        "info": "PB",
+        "cargo": "136 vagas até R$ 14.000,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "15/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Sossego",
+        "info": "PB",
+        "cargo": "64 vagas até R$ 3.650,83",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Belo Jardim",
+        "info": "PE",
+        "cargo": "88 vagas até R$ 2.500,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Cabo de Santo Agostinho",
+        "info": "PE",
+        "cargo": "657 vagas até R$ 12.178,24",
+        "nivel": "Vários Cargos",
+        "data_limite": "23/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Goiana",
+        "info": "PE",
+        "cargo": "1512 vagas até R$ 8.926,43",
+        "nivel": "Vários Cargos",
+        "data_limite": "08/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Ipojuca",
+        "info": "PE",
+        "cargo": "8 vagas até R$ 10.817,10",
+        "nivel": "Arquiteto, Engenheiro Civil",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Domingos Mourão",
+        "info": "PI",
+        "cargo": "54 vagas até R$ 8.976,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "09/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Guaribas",
+        "info": "PI",
+        "cargo": "98 vagas até R$ 3.036,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de São Miguel do Fidalgo",
+        "info": "PI",
+        "cargo": "24 vagas até R$ 7.000,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "26/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de União",
+        "info": "PI",
+        "cargo": "23 vagas até R$ 2.500,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "06/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Várzea Grande",
+        "info": "PI",
+        "cargo": "18 vagas até R$ 1412,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "TCE - Tribunal de Contas do Estado do Rio Grande do Norte",
+        "info": "RN",
+        "cargo": "55 vagas até R$ 15.553,30",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "CRMV - Conselho Regional de Medicina Veterinária do Rio Grande do Norte",
+        "info": "RN",
+        "cargo": "2 vagas até R$ 3.531,50",
+        "nivel": "Agente Administrativo, Agente Fiscal",
+        "data_limite": "05/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Galinhos",
+        "info": "RN",
+        "cargo": "59 vagas até R$ 3.500,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de São Bento do Norte",
+        "info": "RN",
+        "cargo": "5 vagas até R$ 3.000,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "04/02/2026"
+    },
+    {
+        "orgao": "Prefeitura de Pedra Mole",
+        "info": "SE",
+        "cargo": "45 vagas até R$ 2.940,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "05/03/2026"
+    },
+    {
+        "orgao": "Prefeitura de Pedra Mole",
+        "info": "SE",
+        "cargo": "2 vagas até R$ 1.518,00",
+        "nivel": "Guarda Municipal",
+        "data_limite": "05/03/2026"
+    }
+]
