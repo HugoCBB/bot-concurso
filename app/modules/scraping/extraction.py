@@ -39,7 +39,6 @@ class Extraction:
             if len(clean_parts) < 5:
                 continue
             
-
             mapper = {
                 "orgao": clean_parts[0],
                 "info":clean_parts[1],

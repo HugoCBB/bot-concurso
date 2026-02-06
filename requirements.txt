@@ -1,4 +1,11 @@
+boto3==1.42.43
+botocore==1.42.43
 greenlet==3.3.1
+jmespath==1.1.0
 playwright==1.58.0
 pyee==13.0.0
+python-dateutil==2.9.0.post0
+s3transfer==0.16.0
+six==1.17.0
 typing_extensions==4.15.0
+urllib3==2.6.3
