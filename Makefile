@@ -1,2 +1,2 @@
 run:
-	python3 ./app/main.py
+	fastapi dev app/main.py

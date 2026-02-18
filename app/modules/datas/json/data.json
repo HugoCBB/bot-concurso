@@ -405,7 +405,7 @@
         "cargo": "91 vagas até R$ 5.668,74",
         "nivel": "Vários Cargos",
         "data_limite": "16/03/2026",
-        "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-nova-odessa-sp-abre-processo-seletivo-com-91-vagas-e-cadastro-reserva"
+        "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-nova-odessa-sp-retifica-processo-seletivo-com-novos-cargos-e-salarios-de-ate-5668"
     },
     {
         "orgao": "Prefeitura de Pontal",
@@ -934,6 +934,14 @@
         "nivel": "Vários Cargos",
         "data_limite": "09/02/2026",
         "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-andradas-mg-retifica-concurso-publico-com-44-vagas"
+    },
+    {
+        "orgao": "Prefeitura de Andradas",
+        "info": "MG",
+        "cargo": "Cadastro de Reserva até R$ 3.044,76",
+        "nivel": "Educador Infantil, Professor de Educação Básica II",
+        "data_limite": "27/02/2026",
+        "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-andradas-mg-abre-processo-seletivo-para-profissionais-da-educacao"
     },
     {
         "orgao": "Prefeitura de Baependi",
@@ -1968,6 +1976,14 @@
         "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-independencia-rs-abre-processo-seletivo-para-farmaceutico"
     },
     {
+        "orgao": "Prefeitura de Ipê",
+        "info": "RS",
+        "cargo": "5 vagas até R$ 2.254,90",
+        "nivel": "Motorista, Operador de Máquinas",
+        "data_limite": "27/02/2026",
+        "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ipe-rs-abre-processo-seletivo-para-motorista-e-operador-de-maquinas"
+    },
+    {
         "orgao": "Prefeitura de Lindolfo Collor",
         "info": "RS",
         "cargo": "1 vaga até R$ 7.871,63",
@@ -2046,6 +2062,14 @@
         "nivel": "Motorista, Operador de Máquina",
         "data_limite": "20/02/2026",
         "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-tabai-rs-abre-selecoes-para-motoristas-e-operadores-de-maquinas"
+    },
+    {
+        "orgao": "Prefeitura de Torres",
+        "info": "RS",
+        "cargo": "Cadastro Reserva até R$ 2.251,38",
+        "nivel": "Monitor de Transporte Escolar, Monitor de Educação Especial, Motorista",
+        "data_limite": "27/02/2026",
+        "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-torres-rs-abre-processo-seletivo-para-niveis-fundamental-e-medio"
     },
     {
         "orgao": "Prefeitura de Tuparendi",
@@ -2184,6 +2208,22 @@
         "link": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-processo-seletivo-para-cadastro-reserva-de-medico-regulador-das-urgencias-do-samu"
     },
     {
+        "orgao": "FAHECE - Fundação de Apoio ao HEMOSC/CEPON",
+        "info": "SC",
+        "cargo": "1 vaga até R$ 5.538,88",
+        "nivel": "Analista de Faturamento II",
+        "data_limite": "20/02/2026",
+        "link": "https://www.pciconcursos.com.br/noticias/fahece-sc-anuncia-processo-seletivo-para-analista-de-faturamento-ii-no-cepon-de-florianopolis"
+    },
+    {
+        "orgao": "FAHECE - Fundação de Apoio ao HEMOSC/CEPON",
+        "info": "SC",
+        "cargo": "Cadastro Reserva até R$ 133,42 por hora",
+        "nivel": "Médico(a) Regulador(a) das Urgências",
+        "data_limite": "23/02/2026",
+        "link": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-selecao-para-medico-regulador-do-samu-em-criciuma"
+    },
+    {
         "orgao": "FAHECE - Fundação de Apoio ao HEMOSC/CEPON/CEPON",
         "info": "SC",
         "cargo": "1 vaga até R$ 10.025,96",
@@ -2214,6 +2254,14 @@
         "nivel": "Vários Cargos",
         "data_limite": "28/02 a 16/03/2026",
         "link": "https://www.pciconcursos.com.br/noticias/furb-sc-abre-selecao-para-cadastro-de-reserva-em-diversos-cargos-de-nivel-superior"
+    },
+    {
+        "orgao": "FURB - Fundação Universidade Regional de Blumenau",
+        "info": "SC",
+        "cargo": "12 vagas até R$ 7.035,98",
+        "nivel": "Vários Cargos",
+        "data_limite": "24/02 a 25/03/2026",
+        "link": "https://www.pciconcursos.com.br/noticias/furb-sc-abre-concursos-para-cargos-tecnico-administrativos-com-salarios-de-ate-7-mil"
     },
     {
         "orgao": "PMF - Prefeitura de Florianópolis",
@@ -2544,14 +2592,6 @@
         "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-jose-do-cedro-sc-abre-concurso-publico-com-salarios-de-ate-3-2-mil"
     },
     {
-        "orgao": "Prefeitura de Torres",
-        "info": "SC",
-        "cargo": "Cadastro Reserva até R$ 2.251,38",
-        "nivel": "Monitor de Transporte Escolar, Monitor de Educação Especial, Motorista",
-        "data_limite": "27/02/2026",
-        "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-torres-rs-abre-processo-seletivo-para-niveis-fundamental-e-medio"
-    },
-    {
         "orgao": "Prefeitura de Trombudo Central",
         "info": "SC",
         "cargo": "4 vagas + CR até R$ 2.349,71",
@@ -2872,6 +2912,22 @@
         "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-maraa-am-abre-processo-seletivo-com-vagas-para-diversas-areas"
     },
     {
+        "orgao": "Prefeitura de Urucará",
+        "info": "AM",
+        "cargo": "541 vagas até R$ 1.621,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "25/02/2026",
+        "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-urucara-am-abre-processo-seletivo-com-mais-de-500-vagas-para-diversas-areas"
+    },
+    {
+        "orgao": "SEMECD - Secretaria Municipal de Educação, Cultura e Desporto de Rio Preto da Eva",
+        "info": "AM",
+        "cargo": "Cadastro Reserva até R$ 3.100,00",
+        "nivel": "Vários Cargos",
+        "data_limite": "25/02/2026",
+        "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-rio-preto-da-eva-am-abre-selecao-para-cadastro-reserva-com-salarios-de-ate-3-1-mil"
+    },
+    {
         "orgao": "UFAM - Universidade Federal do Amazonas",
         "info": "AM",
         "cargo": "46 vagas até R$ 5.215,39",
@@ -3093,7 +3149,7 @@
         "cargo": "12 vagas até R$ 2.158,20",
         "nivel": "Guarda Municipal",
         "data_limite": "26/02/2026",
-        "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-barra-do-choca-ba-abre-concurso-publico-com-12-vagas-para-guarda-municipal"
+        "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-barra-do-choca-ba-retifica-concurso-com-12-vagas-para-guarda-municipal"
     },
     {
         "orgao": "Prefeitura de Barra do Choça",
@@ -3101,7 +3157,7 @@
         "cargo": "113 vagas até R$ 4.318,18",
         "nivel": "Vários Cargos",
         "data_limite": "26/02/2026",
-        "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-barra-do-choca-ba-abre-concurso-publico-com-mais-de-100-vagas-e-cadastro-reserva"
+        "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-barra-do-choca-ba-retifica-edital-de-concurso-publico"
     },
     {
         "orgao": "Prefeitura de Condeúba",
