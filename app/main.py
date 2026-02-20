@@ -1,14 +1,37 @@
-import asyncio
-import json
 from modules.scraping.extraction import get_contest
 from modules.scraping.transform  import toJson
 from modules.utils.file_dirs import FILE_JSON_DIR
+
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
 from fastapi_pagination import Page, add_pagination, paginate
+
+from dotenv import load_dotenv
+
+import asyncio
+import json
+
+import os
+
+load_dotenv()
 
 FILE_JSON = FILE_JSON_DIR / "data.json"
 
 app = FastAPI()
+
+origins = str(os.getenv("API_URL"))
+
+origins if origins != None else origins = "http://localhost:5173/"
+ 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 @app.get("/")
 async def healt():
