@@ -20,10 +20,9 @@ FILE_JSON = FILE_JSON_DIR / "data.json"
 
 app = FastAPI()
 
-origins = str(os.getenv("API_URL"))
+# origins = str(os.getenv("API_URL"))
+origins = "http://localhost:5173/"
 
-origins if origins != None else origins = "http://localhost:5173/"
- 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
