@@ -1,34 +1,10 @@
 from playwright.async_api import async_playwright
 import re
 from typing import List, Dict
-
+from datetime import datetime, date
 
 url = "https://www.pciconcursos.com.br/concursos/"
 
-
-
-async def get_contest() -> List[Dict]:
-    async with async_playwright() as p:
-        try:
-            browser = await p.firefox.launch(headless=True)
-            page = await browser.new_page()
-            
-            await page.goto(url)
-            elements = await page.locator("div .da, .ea, .na").all()
-            
-            contest_data = []
-            for el in elements:
-                text = await el.inner_text()
-                link = await el.get_attribute("data-url")
-                contest_data.append(f"{text}\n{link}")
-            
-            data = clean_contest(contest_data)
-            return data
-
-        except Exception as e:
-            print(e)
-        finally:
-                await browser.close()
 
 def clean_contest(contest: List[str]) -> List:
     clean_data = []
@@ -55,24 +31,59 @@ def clean_contest(contest: List[str]) -> List:
         clean_data.append(mapper)    
     return clean_data
 
+def parse_date_for_sorting(date_str):
+    last_date = date_str.split('a')[-1].strip()
+
+    try:
+        if len(last_date) <= 5: 
+            return datetime.strptime(f"{last_date}/{date.today().year}", "%d/%m/%Y")
+        return datetime.strptime(last_date, "%d/%m/%Y")
+    except:
+        return datetime.max
+    
 def get_clean_data(clean_parts: List) -> str:
-    raw_date = " ".join(clean_parts[4:])
+    raw_date = " ".join(clean_parts[4:]).lower()
+    
+    if "suspenso" in raw_date:
+        return "Suspenso"
     
     date_pattern = r"\d{2}/\d{2}(?:/\d{4})?"
-
     interval_match = re.search(f"({date_pattern})\\s+a\\s+({date_pattern})", raw_date)
-
+    
     if interval_match:
-        final_date = interval_match.group(0)
-    else:
-        single_match = re.search(date_pattern, raw_date)
-        
-        if single_match:
-            final_date = single_match.group(0)
-        else:
-            final_date = raw_date
+        return interval_match.group(0)
+    
+    dates_found = re.findall(date_pattern, raw_date)
+    if dates_found:
+        return dates_found[-1]
 
-    return final_date
+    return "A definir"
+
+
+async def get_contest() -> List[Dict]:
+    async with async_playwright() as p:
+        try:
+            browser = await p.firefox.launch(headless=True)
+            page = await browser.new_page()
+            
+            await page.goto(url)
+            elements = await page.locator("div .da, .ea, .na").all()
+            
+            contest_data = []
+            for el in elements:
+                text = await el.inner_text()
+                link = await el.get_attribute("data-url")
+                contest_data.append(f"{text}\n{link}")
+            
+            data = clean_contest(contest_data)
+            
+            ordered_data = sorted(data, key=lambda x: parse_date_for_sorting(x['data_limite']))
+            return ordered_data
+
+        except Exception as e:
+            print(e)
+        finally:
+                await browser.close()
 
 
         
