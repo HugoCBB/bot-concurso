@@ -1,27 +1,36 @@
-from modules.scraping.extraction import get_contest
-from modules.scraping.transform  import toJson
-from modules.utils.file_dirs import FILE_JSON_DIR
+from modules.workers.scheduler_contest import job_contests
 
+from routes.contests_routes import route as contests_routes
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from fastapi_pagination import Page, add_pagination, paginate
-
 from dotenv import load_dotenv
-
-import asyncio
-import json
-
-import os
+from apscheduler.schedulers.asyncio import AsyncIOScheduler
+from contextlib import asynccontextmanager
+import logging
 
 load_dotenv()
 
-FILE_JSON = FILE_JSON_DIR / "data.json"
+logging.basicConfig()
+logging.getLogger('apscheduler').setLevel(logging.INFO)
 
-app = FastAPI()
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    scheduler = AsyncIOScheduler()
+    scheduler.add_job(job_contests, trigger="cron", hour=8, minute=0)
+    scheduler.start()
+    print("Agendador iniciado...")
+    yield
+    
+    scheduler.shutdown()
+    print("Agendador encerrado...")
+    
+app = FastAPI(lifespan=lifespan)
+
+app.include_router(contests_routes, prefix="/api/contests", tags=["Contests"])
 
 # origins = str(os.getenv("API_URL"))
-origins = "http://localhost:5174/"
+origins = "http://localhost:5173/"
 
 app.add_middleware(
     CORSMiddleware,
@@ -36,17 +45,4 @@ app.add_middleware(
 async def healt():
     return {"status":"ok"}
 
-@app.get("/api/contests/", response_model=Page[dict])
-async def get_all_contest():
-    with open(FILE_JSON, "r", encoding='utf-8') as file:
-        data = json.load(file)
-    return paginate(data)
-add_pagination(app)
 
-
-async def run():
-    contest = await get_contest()
-    toJson(contest)
-
-if __name__ == "__main__":
-    asyncio.run(run())
