@@ -9,6 +9,8 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from contextlib import asynccontextmanager
 import logging
 
+import os
+
 load_dotenv()
 
 logging.basicConfig()
@@ -29,8 +31,7 @@ app = FastAPI(lifespan=lifespan)
 
 app.include_router(contests_routes, prefix="/api/contests", tags=["Contests"])
 
-# origins = str(os.getenv("API_URL"))
-origins = "http://localhost:5173/"
+origins = str(os.getenv("CORS_URL"))
 
 app.add_middleware(
     CORSMiddleware,
