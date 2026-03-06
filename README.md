@@ -38,6 +38,7 @@ bot_concurso/
 │   │   ├── scraping/         # Scripts e algoritmos de extração
 │   │   └── utils/            # Utilitários de manipulação de disco
 │   └── datas/                # Armazenamento local dos dados em JSON
+│   └── workes/              # Scripts que serao executadas em segundo plano
 │
 ├── frontend/                 # 💻 Frontend (React / Vite)
 │   ├── src/
