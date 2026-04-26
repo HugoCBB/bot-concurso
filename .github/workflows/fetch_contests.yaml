@@ -1,0 +1,34 @@
+name: Scraping contests
+
+on:
+  schedule:
+    # Roda 08h da manha (pelo horario de brasilia)
+    - cron: '0 11 * * *'
+  workflow_dispatch: 
+
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: action/checkout@v3
+
+
+      - name: Setup python
+        uses: actions/setup-python@v4
+        with:
+            python-version: '3.14'
+      
+      - name: Install dependencys
+        run: pip3 install -r requirements.txt
+
+      - name: Install Playwright and Firefox
+        run: |
+            playwright install firefox
+            playwright install-deps firefox
+
+      - name: Run worker
+        env:
+          REDIS_URL: ${{ secrets.REDIS_URL }}
+        run: python worker/run_job.py

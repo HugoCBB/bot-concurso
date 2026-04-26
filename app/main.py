@@ -1,33 +1,16 @@
-from modules.workers.scheduler_contest import job_contests
-
+from modules.scraping.extraction import get_contest
+from modules.scraping.transform import toJson
+import asyncio
 from routes.contests_routes import route as contests_routes
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-
 from dotenv import load_dotenv
-from apscheduler.schedulers.asyncio import AsyncIOScheduler
-from contextlib import asynccontextmanager
-import logging
 
 import os
 
 load_dotenv()
-
-logging.basicConfig()
-logging.getLogger('apscheduler').setLevel(logging.INFO)
-
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    scheduler = AsyncIOScheduler()
-    scheduler.add_job(job_contests, trigger="cron", hour=8, minute=0)
-    scheduler.start()
-    print("Agendador iniciado...")
-    yield
     
-    scheduler.shutdown()
-    print("Agendador encerrado...")
-    
-app = FastAPI(lifespan=lifespan)
+app = FastAPI()
 
 app.include_router(contests_routes, prefix="/api/contests", tags=["Contests"])
 
@@ -45,5 +28,3 @@ app.add_middleware(
 @app.get("/")
 async def healt():
     return {"status":"ok"}
-
-
