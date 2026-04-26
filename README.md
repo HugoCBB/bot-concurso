@@ -6,92 +6,91 @@
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
     <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
     <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-    <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+    <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
   </p>
 </div>
 
 <br />
 
-## � Sobre o Projeto
+## 📖 Sobre o Projeto
 
-O **Bot de Concurso** foi desenvolvido para simplificar a vida de quem estuda para concursos públicos. O sistema realiza a coleta automatizada (scraping) de dados de diversos portais, padroniza as informações e as disponibiliza através de uma API rápida. O frontend apresenta esses dados de forma organizada através de uma interface limpa, vibrante e focada na experiência do usuário.
+O **Bot de Concurso** foi desenvolvido para simplificar a vida de quem estuda para concursos públicos. O sistema realiza a coleta automatizada (scraping) de dados de diversos portais, padroniza as informações e as disponibiliza através de uma API rápida. 
 
 ## ✨ Principais Funcionalidades
 
 - **🕷️ Extração Automatizada (Scraping):** Coleta de editais ativos de concursos, capturando dados corporativos como o órgão, cargo, nível de escolaridade, salário e data limite.
 - **⚡ API Performática:** Backend construído com FastAPI para servir os dados da forma mais rápida e escalável possível.
-- **📱 Interface Moderna e Responsiva:** Frontend inteiramente desenvolvido em React com Tailwind CSS e Shadcn UI, garantindo facilidade de uso em qualquer tamanho de tela e acesso a modos claro e escuro.
-- **📑 Paginação Dinâmica:** Navegação simples e rápida pelas diversas páginas do catálogo de vagas e editais.
-- **🏷️ Identificação Inteligente:** Classificação visual automática de vagas por estado (SP, RJ, MG) e fácil redirecionamento para o edital oficial.
+- **💾 Armazenamento Otimizado:** Uso de Redis para armazenamento de alta performance dos dados extraídos.
+- **⚙️ Automação de Tarefas (Workers):** Scraping executado como jobs independentes e também através de GitHub Actions de forma agendada.
 
 ## 🏗️ Estrutura e Arquitetura
 
-O projeto adota uma arquitetura web moderna e completamente desacoplada:
+O projeto é estruturado focado no Backend e automação:
 
 ```text
 bot_concurso/
 ├── app/                      # 🗄️ Backend (Python / FastAPI)
-│   ├── main.py               # Ponto de entrada da API, roteamento e paginação
+│   ├── main.py               # Ponto de entrada da API
+│   ├── infra/                # Comunicação com serviços externos (Redis)
 │   ├── modules/              # Lógica profunda de negócio
 │   │   ├── scraping/         # Scripts e algoritmos de extração
-│   │   └── utils/            # Utilitários de manipulação de disco
-│   └── datas/                # Armazenamento local dos dados em JSON
-│   └── workes/              # Scripts que serao executadas em segundo plano
+│   │   └── workers/          # Scripts que serão executadas em segundo plano (jobs)
+│   └── routes/               # Rotas da API
 │
-├── frontend/                 # 💻 Frontend (React / Vite)
-│   ├── src/
-│   │   ├── components/ui/    # Componentes estilizados exportados do Shadcn UI
-│   │   ├── services/         # Configurações do cliente Axios (Consumo da API local)
-│   │   ├── App.tsx           # Aplicação principal, gerenciamento de estado e Grid Render
-│   │   └── index.css         # Variáveis e temas (Tailwind/Oklch) para cores dinâmicas
-│   ├── package.json          # Metadados e dependências Node configuradas
-│   └── vite.config.ts        # Opções do bundler Vite
-│
+├── .github/workflows/        # ⚙️ Automação CI/CD (Scraping agendado)
+├── docker-compose.yaml       # 🐋 Configuração de serviços via Docker (Redis)
+├── Makefile                  # 🛠️ Comandos facilitadores
 └── requirements.txt          # 📦 Especificações de dependências do Python
 ```
 
-## � Como Executar Localmente
+## 🚀 Como Executar Localmente
 
 ### Pré-requisitos e Dependências
 Para iniciar a aplicação localmente, certifique-se de ter instalado no seu computador:
 - **Python 3.10+**
-- **Node.js 18+** e o gerenciador de pacotes **npm**
+- **Docker** e **Docker Compose** (para o Redis)
+- **Make**
 
-### Passo 1: Inicializando o Backend (FastAPI)
+### Passo 1: Inicializando o Banco de Dados (Redis)
+
+O projeto usa Redis para armazenar os concursos. Levante o contêiner usando Docker:
+
+```bash
+docker compose up -d
+```
+
+### Passo 2: Configurando o ambiente Python
 
 Abra seu terminal favorito, acesse o repositório clonado e inicie seu ambiente isolado:
 
 ```bash
-# 1. Entre no diretório do Backend
-cd app
-
-# 2. Crie e ative um ambiente virtual isolado p/ manter os módulos organizados
+# 1. Crie e ative um ambiente virtual isolado p/ manter os módulos organizados
 python3 -m venv venv
 source venv/bin/activate  # NO WINDOWS, UTILIZE: venv\Scripts\activate
 
-# 3. Instale os requerimentos globais da aplicação Python
-pip install -r ../requirements.txt
+# 2. Instale os requerimentos globais da aplicação Python e as dependências do Playwright
+pip install -r requirements.txt
+playwright install firefox
+```
 
-# 4. Levante o backend com reload ativado!
-uvicorn main:app --reload --port 8000
+### Passo 3: Executando o Scraping (Opcional, os dados precisam existir no Redis)
+
+Para realizar a extração inicial dos dados usando o worker:
+
+```bash
+make run-scraping
+```
+
+### Passo 4: Inicializando a API (FastAPI)
+
+```bash
+# Levante o servidor de desenvolvimento
+make run
 ```
 > Após as mensagens de sucesso aparecerem, sua API já estará ativa em: `http://localhost:8000`. Se desejar, explore a documentação em conjunto via visualização interativa no Swagger acessando `http://localhost:8000/docs`.
 
-### Passo 2: Inicializando o Frontend (React)
-
-Com o processo do Backend minimizado e executando livremente, abra um **novo terminal** na pasta raiz e siga os passos:
-
-```bash
-# 1. Entre no diretório do Frontend Web
-cd frontend
-
-# 2. Faça o download e instale todas as dependências JavaScript/React
-npm install
-
-# 3. Inicie o Vite em modo de desenvolvimento local
-npm run dev
-```
-> O sistema irá fornecer um link rápido em verde no terminal, tipicamente apontando para `http://localhost:5173/`. Cole essa URL no seu navegador e aproveite o projeto!
+## 🤖 Scraping Automático (GitHub Actions)
+O repositório possui um workflow do GitHub Actions configurado (`fetch_contests.yaml`) que roda todos os dias às 11:00 UTC (08:00 no horário de Brasília) para manter os dados no banco atualizados automaticamente. Ele requer que haja uma `REDIS_URL` configurada nos **Secrets** do repositório para conectar ao seu banco de dados na nuvem.
 
