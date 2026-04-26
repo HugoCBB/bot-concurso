@@ -31,4 +31,4 @@ jobs:
       - name: Run worker
         env:
           REDIS_URL: ${{ secrets.REDIS_URL }}
-        run: python worker/run_job.py
+        run: make run-scraping
