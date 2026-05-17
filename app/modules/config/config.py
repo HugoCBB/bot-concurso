@@ -8,7 +8,7 @@ class __Settings(BaseSettings):
     
     s3_endpoint: str = os.getenv("S3_ENDPOINT")
     s3_region: str =  os.getenv('S3_REGION') or "us-west-1"
-    s3_acess_key: str = os.getenv("S3_ACCES_KEY")
+    s3_acess_key: str = os.getenv("S3_ACCESS_KEY")
     s3_secret_key: str = os.getenv("S3_SECRET_KEY")
     s3_bucket: str = os.getenv("S3_BUCKET") or "editais-bot-concurso"
 
