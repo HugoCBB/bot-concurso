@@ -25,9 +25,15 @@ async def consumer(queue: asyncio.Queue, browser: Browser):
         pdf_links = await get_pdf_links(page, contest["link"])
         await page.close()
         
+        s3_urls = []
         for link in pdf_links:
-            await download_pdf(link, contest["orgao"])
-        
+            try:
+                s3_url = await download_pdf(link, contest["orgao"])
+                s3_urls.append(s3_url)
+            except Exception as e:
+                logger.error(f"Erro no upload do PDF {link}: {e}")
+
+        contest["edital_urls"] = s3_urls 
         contests_process.append(contest)
         await save_contests(contests_process)
         queue.task_done()

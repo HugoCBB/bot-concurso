@@ -4,7 +4,12 @@ from .transform import clean_contest, parse_date_for_sorting
 import asyncio
 import httpx
 from playwright.async_api import Page
-from modules.utils.file_dirs import FILE_PDF_DIR
+from infra.s3_client import get_s3_client
+from modules.config.config import setting
+from slugify import slugify
+
+global __s3
+__s3 = get_s3_client()
 
 url = "https://www.pciconcursos.com.br/concursos/"
 
@@ -42,14 +47,27 @@ async def get_pdf_links(page: Page, url: str) -> list[str]:
 
 
 async def download_pdf(url: str, orgao: str) -> str:
-    orgao_clean = re.sub(r'[/\\:*?"<>|]', '_', orgao)
+    filename = f"{slugify(orgao)}/{slugify(url.split('/')[-1].replace('.pdf', ''))}.pdf" 
     
-    async with httpx.AsyncClient() as client:
-        response = await client.get(url)
-    
-    filename = f"{FILE_PDF_DIR}/{orgao_clean}_{url.split('/')[-1]}"
-    with open(filename, "wb") as f:
-        f.write(response.content)
-    
-    print(f"Pdf salvo: {filename}")
-    return filename
+    try:
+        async with httpx.AsyncClient() as client:
+            response = await client.get(url)
+        
+        await upload_to_s3(filename, response)
+
+        s3_url = f"{setting.s3_endpoint}/{setting.s3_bucket}/{filename}"
+        return s3_url
+    except Exception as e:
+        print(f"erro ao baixar pdf: {e}")
+
+async def upload_to_s3(filename: str, response):
+    loop = asyncio.get_event_loop()
+    await loop.run_in_executor(
+        None,
+        lambda: __s3.put_object(
+            Bucket=setting.s3_bucket,
+            Key=filename,
+            Body=response.content,
+            ContentType="application/pdf",
+        )
+    )
