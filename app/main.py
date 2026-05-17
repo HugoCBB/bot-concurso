@@ -1,6 +1,3 @@
-from modules.scraping.extraction import get_contest
-from modules.scraping.transform import toJson
-import asyncio
 from routes.contests_routes import route as contests_routes
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -23,7 +20,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 @app.get("/")
 async def healt():
