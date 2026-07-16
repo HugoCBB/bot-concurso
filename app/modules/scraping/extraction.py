@@ -1,5 +1,4 @@
 from typing import List, Dict
-import re
 from .transform import clean_contest, parse_date_for_sorting
 import asyncio
 import httpx
@@ -15,7 +14,7 @@ url = "https://www.pciconcursos.com.br/concursos/"
 
 
 async def get_contest(page: Page, queue: asyncio.Queue) -> List[Dict]:
-        await page.goto(url)
+        await page.goto(url, wait_until="domcontentloaded")
         elements = await page.locator("div .da, .ea, .na").all()
             
         contest_data = []
