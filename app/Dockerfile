@@ -18,6 +18,9 @@ COPY . .
 
 ENV PATH="/opt/venv/bin:$PATH"
 
+# Playwright browser + OS deps (needed by the scraping worker)
+RUN playwright install --with-deps firefox
+
 EXPOSE 8000
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "server.main:app", "--host", "0.0.0.0", "--port", "8000"]

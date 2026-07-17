@@ -4,7 +4,7 @@ on:
   schedule:
     # Roda 08h da manha (pelo horario de brasilia)
     - cron: '0 11 * * *'
-  workflow_dispatch: 
+  workflow_dispatch:
 
 
 jobs:
@@ -14,26 +14,32 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-
       - name: Setup python
         uses: actions/setup-python@v4
         with:
             python-version: '3.14'
-      
-      - name: Install dependencys
-        run: pip3 install -r requirements.txt
+
+      - name: Install dependencies
+        run: pip3 install -r app/requirements.txt
 
       - name: Install Playwright and Firefox
         run: |
             playwright install firefox
             playwright install-deps firefox
 
-      - name: Run worker
+      - name: Run migrations
+        working-directory: ./app
         env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: alembic upgrade head
+
+      - name: Run scraper
+        working-directory: ./app
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
           REDIS_URL: ${{ secrets.REDIS_URL }}
           S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
           S3_REGION: ${{ secrets.S3_REGION }}
           S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
           S3_SECRET_KEY: ${{ secrets.S3_SECRET_KEY }}
-        
-        run: make run-scraping
+        run: python -m modules.workers.run_job

@@ -1,5 +1,6 @@
 from typing import List, Dict
 import json
+import hashlib
 from datetime import datetime
 from datetime import date
 import re
@@ -51,17 +52,40 @@ def clean_contest(contest: List[str]) -> List:
         if data_limite_obj < datetime.now():
             continue
 
+        orgao = clean_parts[0]
+        link = clean_parts[-1]
+
         mapper = {
-            "orgao": clean_parts[0],
+            "fingerprint": make_fingerprint(orgao, link, data_limite_str),
+            "orgao": orgao,
             "info": info,
             "cargo": cargo,
             "nivel": nivel,
             "data_limite": data_limite_str,
-            "link": clean_parts[-1]
+            "link": link
         }
 
-        clean_data.append(mapper)    
-    return clean_data
+        clean_data.append(mapper)
+    return dedupe(clean_data)
+
+
+def make_fingerprint(orgao: str, link: str, data_limite: str) -> str:
+    """Identificador estavel de um concurso (base para dedupe/idempotencia)."""
+    raw = f"{orgao.strip().lower()}|{link.strip().lower()}|{data_limite.strip().lower()}"
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
+
+
+def dedupe(contests: List[Dict]) -> List[Dict]:
+    """Remove concursos repetidos pelo fingerprint, preservando a ordem."""
+    seen = set()
+    unique = []
+    for c in contests:
+        fp = c["fingerprint"]
+        if fp in seen:
+            continue
+        seen.add(fp)
+        unique.append(c)
+    return unique
 
 def parse_date_for_sorting(date_str):
     last_date = date_str.split('a')[-1].strip()
