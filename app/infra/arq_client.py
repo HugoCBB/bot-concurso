@@ -1,12 +1,8 @@
-import os
 from arq.connections import RedisSettings, create_pool
-from dotenv import load_dotenv
 
-load_dotenv()
+from modules.config.config import setting
 
-REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379/0")
-
-redis_settings = RedisSettings.from_dsn(REDIS_URL)
+redis_settings = RedisSettings.from_dsn(setting.redis_url)
 
 _pool = None
 

@@ -2,8 +2,7 @@ name: Scraping contests
 
 on:
   schedule:
-    # Roda 08h da manha (pelo horario de brasilia)
-    - cron: '0 11 * * *'
+    - cron: '0 8 * * *'
   workflow_dispatch:
 
 

@@ -1,13 +1,11 @@
 import redis.asyncio as rd
 import json
-import os
 import logging
-from dotenv import load_dotenv
 
-load_dotenv()
+from modules.config.config import setting
 
 logger = logging.getLogger(__name__)
-REDIS_URL = os.getenv("REDIS_URL")
+REDIS_URL = setting.redis_url
 CONTEST_KEY = "contest:list"
 CONTESTS_TTL = 60 * 60 * 25
 

@@ -5,6 +5,7 @@ Um sistema moderno e inteligente para buscar, acompanhar e organizar editais de 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -12,117 +13,183 @@ Um sistema moderno e inteligente para buscar, acompanhar e organizar editais de 
 
 ## Sobre o Projeto
 
-O **Bot de Concurso** foi desenvolvido para simplificar a vida de quem estuda para concursos públicos. O sistema realiza a coleta automatizada (scraping) de dados de diversos portais, padroniza as informações, baixa os PDFs dos editais e os disponibiliza através de uma API rápida.
+O **Bot de Concurso** foi desenvolvido para simplificar a vida de quem estuda para concursos públicos. O sistema realiza a coleta automatizada (scraping) de dados de portais de concursos, padroniza as informações, baixa os PDFs dos editais e os disponibiliza através de uma API rápida.
+
+O **PostgreSQL** é a fonte de verdade (histórico e deduplicação), o **Redis** funciona como cache quente para a API, e o **S3** guarda os PDFs dos editais.
 
 ## Principais Funcionalidades
 
-- **Extração Automatizada (Scraping):** Coleta de editais ativos de concursos, capturando dados como órgão, cargo, nível de escolaridade, salário e data limite.
-- **Pipeline Paralelo:** Arquitetura producer/consumer com `asyncio.Queue` — o scraping dos dados e o processamento dos PDFs rodam de forma concorrente, sem bloqueios.
-- **Download e Armazenamento de Editais (PDFs):** Para cada concurso encontrado, o sistema navega até a página do edital, coleta os links dos PDFs e faz o upload automaticamente para armazenamento em nuvem S3.
-- **Integração com S3:** Upload dos arquivos para qualquer provedor compatível com o protocolo S3 (AWS S3, Cloudflare R2, MinIO, etc.), com URL pública retornada junto aos dados de cada concurso.
-- **Armazenamento Otimizado:** Uso de Redis para armazenamento de alta performance dos dados extraídos.
-- **Automação de Tarefas (Workers):** Scraping executado como jobs independentes e também através de GitHub Actions de forma agendada.
+- **Extração Automatizada (Scraping):** Coleta de editais ativos, capturando órgão, cargo, nível, data limite e link.
+- **Pipeline Paralelo:** Arquitetura producer/consumer com `asyncio.Queue` — um pool de workers processa vários concursos ao mesmo tempo, com semáforo limitando as páginas simultâneas do navegador.
+- **Isolamento de Falhas:** Um concurso que falha (página inacessível, PDF quebrado) é registrado e ignorado — nunca derruba o job inteiro.
+- **Persistência Idempotente:** Cada concurso tem um `fingerprint` (hash de órgão + link + data). O `UPSERT` por fingerprint evita duplicatas, então rodar o scraping várias vezes é seguro.
+- **Salvamento Incremental:** Cada concurso é gravado no Postgres assim que é processado — um crash no meio do job não perde o que já foi feito.
+- **Limpeza de Armazenamento:** No início de cada job, concursos com data limite vencida são removidos do banco **e** seus PDFs são apagados do S3, mantendo o storage sob controle.
+- **Download e Armazenamento de Editais (PDFs):** Para cada concurso, o sistema coleta os links dos PDFs, baixa (com retry/backoff) e faz upload para o S3.
+- **Cache com Redis:** A API lê do cache Redis; em cache frio, busca no Postgres e reaquece o cache.
+- **Agendamento (Worker arq):** Um worker `arq` executa o scraping via cron (a cada 6h) e aceita disparos sob demanda pela API.
+- **Scraping Agendado (GitHub Actions):** Alternativa/adicional ao worker, roda o scraping em um cron diário.
 
 ## Estrutura e Arquitetura
 
-O projeto é estruturado focado no Backend e automação:
-
 ```text
 bot_concurso/
-├── app/                      # Backend (Python / FastAPI)
-│   ├── main.py               # Ponto de entrada da API
-│   ├── infra/                # Comunicação com serviços externos (Redis, S3)
-│   │   ├── redis_client.py   # Persistência dos dados de concursos
-│   │   └── s3_client.py      # Upload de PDFs para armazenamento em nuvem
-│   ├── modules/              # Lógica profunda de negócio
-│   │   ├── config/           # Configurações e variáveis de ambiente
-│   │   ├── scraping/         # Scripts e algoritmos de extração + download de PDFs
-│   │   └── workers/          # Pipeline producer/consumer para processamento paralelo
-│   └── routes/               # Rotas da API
+├── app/                          # Backend (Python / FastAPI)
+│   ├── server/
+│   │   └── main.py               # Ponto de entrada da API (uvicorn server.main:app)
+│   ├── infra/                    # Comunicação com serviços externos
+│   │   ├── db.py                 # Engine/sessão async do Postgres (SQLAlchemy)
+│   │   ├── redis_client.py       # Cache dos concursos
+│   │   ├── s3_client.py          # Upload/remoção de PDFs no S3
+│   │   └── arq_client.py         # Conexão/fila do worker arq
+│   ├── modules/
+│   │   ├── config/               # Configurações e variáveis de ambiente
+│   │   ├── models/               # Modelos ORM (Contest, Edital)
+│   │   ├── repository/           # Camada de acesso a dados (upsert, cleanup, leitura)
+│   │   ├── scraping/             # Extração + transformação + download de PDFs
+│   │   └── workers/              # Pipeline (run_scraping), CLI e WorkerSettings do arq
+│   ├── routes/                   # Rotas da API
+│   ├── migrations/               # Migrações Alembic
+│   └── alembic.ini
 │
-├── .github/workflows/        # Automação CI/CD (Scraping agendado)
-├── docker-compose.yaml       # Configuração de serviços via Docker (Redis)
-├── Makefile                  # Comandos facilitadores
-└── requirements.txt          # Especificações de dependências do Python
+├── .github/workflows/            # Scraping agendado (CI)
+├── docker-compose.yaml           # postgres, redis, migrate, api, worker
+├── Makefile                      # Comandos facilitadores
+└── README.md
 ```
 
-## Como Executar Localmente
+### Fluxo de um Job de Scraping
 
-### Pré-requisitos e Dependências
-
-Para iniciar a aplicação localmente, certifique-se de ter instalado no seu computador:
-
-- **Python 3.10+**
-- **Docker** e **Docker Compose** (para o Redis)
-- **Make**
-
-### Passo 1: Inicializando o Banco de Dados (Redis)
-
-O projeto usa Redis para armazenar os concursos. Levante o contêiner usando Docker:
-
-```bash
-docker compose up -d
+```
+limpeza de vencidos (DB + S3)  ->  scraping da lista  ->  processa cada concurso
+        (cleanup_expired)             (producer)          (workers, em paralelo)
+                                                                    |
+                                              baixa PDFs -> S3  +  UPSERT incremental (Postgres)
+                                                                    |
+                                                        refresh do cache Redis (no fim)
 ```
 
-### Passo 2: Configurando o ambiente Python
+## Como Executar (Docker — recomendado)
 
-Abra seu terminal favorito, acesse o repositório clonado e inicie seu ambiente isolado:
+O jeito mais simples de subir tudo (Postgres, Redis, migrações, API e worker):
+
+### Pré-requisitos
+- **Docker** e **Docker Compose**
+- **Make** (opcional, mas os comandos abaixo o usam)
+
+### Passo 1: Variáveis de ambiente
+```bash
+cd app && cp .env.example .env    # preencha as credenciais S3 (Postgres/Redis já apontam para o compose)
+```
+
+### Passo 2: Subir a stack
+```bash
+make up        # docker compose up -d --build
+```
+Isso sobe, na ordem: **postgres** → **migrate** (`alembic upgrade head`, roda uma vez) → **api** + **worker**.
+
+### Passo 3: Rodar um scraping
+```bash
+make refresh        # enfileira um job no worker (via API POST /api/contests/refresh)
+# ou:
+make run-scraping   # roda o pipeline uma vez, direto (sem fila)
+make logs-worker    # acompanhar os logs do worker
+```
+
+A API fica em `http://localhost:8000` e a documentação (Swagger) em `http://localhost:8000/docs`.
+
+### Comandos do Makefile
+
+| Comando | O que faz |
+| --- | --- |
+| `make up` | Build + sobe todos os serviços |
+| `make down` | Para e remove os contêineres |
+| `make logs` / `make logs-worker` | Acompanha os logs |
+| `make migrate` | Aplica as migrações (`alembic upgrade head`) |
+| `make refresh` | Enfileira um job de scraping via API |
+| `make run-scraping` | Roda o scraping uma vez (nativo) |
+| `make scrape` | Roda o scraping uma vez (contêiner one-off) |
+| `make psql` | Abre um shell `psql` no banco |
+
+## Como Executar Localmente (sem Docker)
+
+Requer **Python 3.14**, além de um Postgres e Redis acessíveis.
 
 ```bash
-# 1. Crie e ative um ambiente virtual isolado p/ manter os módulos organizados
-python3 -m venv venv
-source venv/bin/activate  # NO WINDOWS, UTILIZE: venv\Scripts\activate
+# 1. Ambiente virtual
+python -m venv .venv
+source .venv/bin/activate      # Windows: .venv\Scripts\activate
 
-# 2. Instale os requerimentos globais da aplicação Python e as dependências do Playwright
-pip install -r requirements.txt
+# 2. Dependências + navegador
+pip install -r app/requirements.txt
 playwright install firefox
+
+# 3. Postgres + Redis (via Docker, só a infra)
+docker compose up -d postgres redis migrate
+
+# 4. Variáveis de ambiente
+cd app && cp .env.example .env
+
+# 5. Rodar o scraping
+python -m modules.workers.run_job     # ou: make run-scraping (na raiz)
+
+# 6. Subir a API
+fastapi dev server/main.py            # a partir da pasta app/
 ```
 
-### Passo 3: Configurando as variáveis de ambiente
-
-Copie o arquivo de exemplo e preencha as variáveis:
-
-```bash
-cp .env.example .env
-```
+## Variáveis de Ambiente
 
 | Variável | Descrição | Obrigatória |
 | --- | --- | --- |
+| `DATABASE_URL` | Conexão Postgres (driver async `postgresql+psycopg://...`) | Sim |
 | `REDIS_URL` | URL de conexão com o Redis | Sim |
-| `S3_ENDPOINT` | Endpoint do provedor S3 (ex.: `https://s3.amazonaws.com`) | Sim |
+| `S3_ENDPOINT` | Endpoint do provedor S3 | Sim |
 | `S3_REGION` | Região do bucket (padrão: `us-west-1`) | Não |
 | `S3_ACCESS_KEY` | Chave de acesso S3 | Sim |
 | `S3_SECRET_KEY` | Chave secreta S3 | Sim |
 | `S3_BUCKET` | Nome do bucket (padrão: `editais-bot-concurso`) | Não |
+| `CORS_URL` | Origem permitida no CORS da API | Não |
 
-### Passo 4: Executando o Scraping
+### Postgres na Supabase (produção / CI)
 
-Para realizar a extração inicial dos dados usando o worker:
+Use a string do **Session pooler** (IPv4, porta 5432 — funciona no GitHub Actions e mantém os prepared statements do psycopg3/Alembic):
 
-```bash
-make run-scraping
+```
+postgresql+psycopg://postgres.<project-ref>:<password>@aws-0-<region>.pooler.supabase.com:5432/postgres?sslmode=require
 ```
 
-O worker irá:
+- O usuário é `postgres.<project-ref>` (não apenas `postgres`).
+- Mantenha o prefixo `postgresql+psycopg://` e `?sslmode=require`.
+- **Não** use o Transaction pooler (porta 6543) para migrações — o modo transaction quebra os prepared statements.
+- A senha do banco **não** é a do seu login (GitHub SSO); é definida na criação do projeto e pode ser redefinida em *Project Settings → Database*.
 
-1. **Coletar** todos os editais ativos do portal de concursos
-2. **Em paralelo**, para cada concurso, navegar até a página do edital e baixar os PDFs encontrados
-3. **Fazer upload** de cada PDF para o S3 e salvar a URL pública junto ao registro do concurso no Redis
+## Migrações (Alembic)
 
-### Passo 5: Inicializando a API (FastAPI)
+O schema é versionado com Alembic (não use `create_all` em produção).
 
 ```bash
-make run
+cd app
+alembic upgrade head                       # aplica todas as migrações
+alembic revision --autogenerate -m "msg"   # gera nova migração a partir dos modelos
 ```
 
-Após as mensagens de sucesso, a API estará ativa em `http://localhost:8000`. A documentação interativa (Swagger) estará disponível em `http://localhost:8000/docs`.
+No Docker, o serviço `migrate` roda `alembic upgrade head` automaticamente antes da API/worker subirem.
+
+## API
+
+| Método | Rota | Descrição |
+| --- | --- | --- |
+| `GET` | `/api/contests/` | Lista paginada de concursos (cache Redis → Postgres) |
+| `POST` | `/api/contests/refresh` | Enfileira um job de scraping no worker |
+| `GET` | `/` | Health check |
 
 ## Scraping Automático (GitHub Actions)
 
-O repositório possui um workflow do GitHub Actions configurado (`fetch_contests.yaml`) que roda todos os dias às 11:00 UTC (08:00 no horário de Brasília) para manter os dados no banco atualizados automaticamente. Ele requer os seguintes **Secrets** configurados no repositório:
+O workflow `fetch_contests.yaml` roda um cron diário (11:00 UTC / 08:00 Brasília): instala as dependências, aplica as migrações (`alembic upgrade head`) e executa o scraper. Requer os **Secrets** no repositório:
 
 | Secret | Descrição |
 | --- | --- |
+| `DATABASE_URL` | Conexão Postgres (Session pooler da Supabase — IPv4) |
 | `REDIS_URL` | URL de conexão com o Redis na nuvem |
 | `S3_ENDPOINT` | Endpoint do provedor S3 |
 | `S3_REGION` | Região do bucket S3 |

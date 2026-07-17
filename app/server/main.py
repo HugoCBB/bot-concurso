@@ -1,17 +1,14 @@
 from routes.contests_routes import route as contests_routes
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from dotenv import load_dotenv
 
-import os
+from modules.config.config import setting
 
-load_dotenv()
-    
 app = FastAPI()
 
 app.include_router(contests_routes, prefix="/api/contests", tags=["Contests"])
 
-origins = str(os.getenv("CORS_URL"))
+origins = [o.strip() for o in setting.cors_url.split(",")]
 
 app.add_middleware(
     CORSMiddleware,

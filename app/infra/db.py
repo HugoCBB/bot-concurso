@@ -1,17 +1,12 @@
-import os
 import logging
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncSession
 from sqlalchemy.orm import DeclarativeBase
-from dotenv import load_dotenv
 
-load_dotenv()
+from modules.config.config import setting
 
 logger = logging.getLogger(__name__)
 
-DATABASE_URL = os.getenv(
-    "DATABASE_URL",
-    "postgresql+psycopg://postgres:postgres@localhost:5432/concursos",
-)
+DATABASE_URL = setting.database_url
 
 
 class Base(DeclarativeBase):
