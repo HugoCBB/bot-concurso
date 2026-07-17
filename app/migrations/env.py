@@ -10,7 +10,23 @@ sys.path.insert(0, os.path.abspath(os.path.dirname(os.path.dirname(__file__))))
 
 load_dotenv()
 
-from infra.db import Base, DATABASE_URL 
+from infra.db import Base, DATABASE_URL
+
+# Fail fast with a readable message when the DATABASE_URL secret is missing.
+# An unset GitHub secret is passed as "", so the config falls back to the
+# localhost default -- which never exists on a CI runner.
+if "localhost" in DATABASE_URL or "127.0.0.1" in DATABASE_URL:
+    raise SystemExit(
+        "DATABASE_URL is not set (fell back to localhost). "
+        "Set the DATABASE_URL secret in the workflow to your Supabase "
+        "Session pooler URL: "
+        "postgresql+psycopg://postgres.<ref>:<password>@aws-...pooler.supabase.com:5432/postgres?sslmode=require"
+    )
+
+# Show the sanitized target so misconfig is obvious in the CI log.
+from sqlalchemy.engine import make_url
+_safe_url = make_url(DATABASE_URL).render_as_string(hide_password=True)
+print(f"[alembic] connecting to: {_safe_url}")
 
 config = context.config
 config.set_main_option("sqlalchemy.url", DATABASE_URL)
