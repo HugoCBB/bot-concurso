@@ -9,6 +9,7 @@ on:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    environment: Production
 
     steps:
       - uses: actions/checkout@v3
@@ -35,7 +36,6 @@ jobs:
       - name: Run scraper
         working-directory: ./app
         env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
           REDIS_URL: ${{ secrets.REDIS_URL }}
           S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
           S3_REGION: ${{ secrets.S3_REGION }}
